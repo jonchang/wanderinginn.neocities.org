@@ -1,0 +1,28 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diffy (3.3.0)
+    guess_html_encoding (0.0.11)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
+    parallel (1.19.1)
+    ruby-progressbar (1.10.1)
+    ruby-readability (0.7.0)
+      guess_html_encoding (>= 0.0.4)
+      nokogiri (>= 1.6.0)
+    wayback_machine_downloader (2.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  diffy!
+  nokogiri!
+  parallel!
+  ruby-progressbar!
+  ruby-readability!
+  wayback_machine_downloader!
+
+BUNDLED WITH
+   2.1.4
