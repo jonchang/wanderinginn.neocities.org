@@ -20,14 +20,28 @@ def generate_chapter_link(row)
     %Q|<a name="chapter-#{row[:slug]}" href="#{row[:url]}">#{row[:title]}</a>|
 end
 
+def diffstat(file, max_width: 10)
+  contents = File.read(file)
+  ins = '<ins>'
+  del = '<del>'
+  plus = contents.gsub(ins).count
+  minus = contents.gsub(del).count
+  total = plus + minus
+  if total <= max_width
+    "#{total.to_s.ljust(4)}#{"+" * plus}#{"-" * minus}"
+  else
+    diff = (plus.to_f / total * max_width).round
+    "#{total.to_s.ljust(4)}#{"+" * diff}#{"-" * (max_width - diff)}"
+  end
+end
+
 def generate_diff_link(row)
   pn_web = "diffs/#{row[:slug]}.html"
   pn = Pathname.new "_site/#{pn_web}"
-  size = pn.size?
-  if size
-    %Q|<a href="#{pn_web.to_s}">#{size}</a>|
+  if pn.exist?
+    %Q|<a href="#{pn_web.to_s}"><tt>#{diffstat(pn).gsub(" ", "&nbsp;")}</tt></a>|
   else
-    "0"
+    "<tt>0</tt>"
   end
 end
 
