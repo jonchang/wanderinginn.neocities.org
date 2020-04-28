@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="element">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" href="https://elementcss.neocities.org/dist/element-0.1.1.min.css">
+    <title>The Wandering Inn Info</title>
+  </head>
+  <body>
+    <h1>The Wandering Inn Info</h1>
+
+    <p>This is a fansite for <a href="https://wanderinginn.com">The Wandering Inn</a>, a web serial.</p>
+
+    <p>I use the <a href="https://web.archive.org">Internet Archive</a> to show how the text of the story has changed over time. Most of the changes are uninteresting typo fixes, but there are some important changes in volumes 1 and 2, mostly related to how the leveling system evolved as Innverse grew in scope.</p>
+
+    <p>The algorithm used here is a tweaked version of the <a href="http://zenmagiclove.com/simple/breaker.html">breakerbreaker method</a>, optimized for TWI's prose. Note that only the differing phrases are provided on this site; for the full context, refer to the original chapter text.</p>
+
+    <p>Selected changes:
+    <ul>
+      <li><a href="#chapter-1-11">1.11</a> (Pisces's levels)</li>
+      <li><a href="#chapter-1.12">1.28</a> (Harpies are dead)</li>
+      <li><a href="#chapter-interlude-2">Interlude</a> after 3.42 (Solstice)</li>
+      <li><a href="#chapter-interlude-4">Interlude</a> after 5.62 (Goblin keys)</li>
+    </ul>
+    </p>
+
+    <p>These data were last updated on <%= lastmod %>.</p>
+
+    <p>
+    <ul>
+      <li><a href="#chapter-1-00">Volume 1</a></li>
+      <li><a href="#chapter-interlude-2">Volume 2</a></li>
+      <li><a href="#chapter-3-00-e">Volume 3</a></li>
+      <li><a href="#chapter-4-00-k">Volume 4</a></li>
+      <li><a href="#chapter-glossary">Volume 5</a></li>
+      <li><a href="#chapter-6-00">Volume 6</a></li>
+    </ul>
+    </p>
+
+    <table style="width: unset; margin-left: unset">
+      <tr>
+      <th>Chapter</th>
+      <th>Size in bytes</th>
+      </tr>
+  <%= html_table %>
+    </table>
+
+  </body>
+</html>
