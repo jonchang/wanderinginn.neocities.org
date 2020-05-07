@@ -1,419 +1,419 @@
-wordpress_title	royal_road_title	test	slug
-1.00	1.00	TRUE	1-00
-1.01	1.01	TRUE	1-01
-1.02	1.02	TRUE	1-02
-1.03	1.03	TRUE	1-03
-1.04	1.04	TRUE	1-04
-1.05	1.05	TRUE	1-05
-1.06	1.06	TRUE	1-06
-1.07	1.07	TRUE	1-07
-1.08	1.08	TRUE	1-08
-1.09	1.09	TRUE	1-09
-1.10	1.10	TRUE	1-10
-1.11	1.11	TRUE	1-11
-Interlude	Interlude	TRUE	interlude
-1.12	1.12	TRUE	1-12
-1.13	1.13	TRUE	1-13
-1.14	1.14	TRUE	1-14
-1.15	1.15	TRUE	1-15
-1.16	1.16	TRUE	1-16
-1.17	1.17	TRUE	1-17
-1.18	1.18	TRUE	1-18
-1.19	1.19	TRUE	1-19
-1.20	1.20	TRUE	1-20
-Interlude – 1.00 R	Interlude - 1.00 R	FALSE	interlude-1-00-r
-1.01 R	1.01 R	TRUE	1-01-r
-1.21	1.21	TRUE	1-21
-1.22	1.22	TRUE	1-22
-1.23	1.23	TRUE	1-23
-Interlude: King Edition	Interlude - King Edition	FALSE	interlude-king-edition
-1.24	1.24	TRUE	1-24
-1.02 R	1.02 R	TRUE	1-02-r
-1.03 R	1.03 R	TRUE	1-03-r
-1.25	1.25	TRUE	1-25
-1.26	1.26	TRUE	1-26
-1.27	1.27	TRUE	1-27
-1.04 R	1.04 R	TRUE	1-04-r
-1.05 R	1.05 R	TRUE	1-05-r
-1.28	1.28	TRUE	1-28
-1.06 R	1.06 R	TRUE	1-06-r
-1.29	1.29	TRUE	1-29
-1.30	1.30	TRUE	1-30
-1.31	1.31	TRUE	1-31
-1.07 R	1.07 R	TRUE	1-07-r
-1.08 R	1.08 R	TRUE	1-08-r
-1.32	1.32	TRUE	1-32
-1.33	1.33	TRUE	1-33
-1.09 R	1.09 R	TRUE	1-09-r
-1.10 R	1.10 R	TRUE	1-10-r
-1.34	1.34	TRUE	1-34
-1.35	1.35	TRUE	1-35
-1.11 R	1.11 R	TRUE	1-11-r
-1.12 R	1.12 R	TRUE	1-12-r
-1.36	1.36	TRUE	1-36
-1.37	1.37	TRUE	1-37
-1.38	1.38	TRUE	1-38
-1.39	1.39	TRUE	1-39
-1.40	1.40	TRUE	1-40
-1.13 R	1.13 R	TRUE	1-13-r
-1.41	1.41	TRUE	1-41
-1.00 H	1.00 H	TRUE	1-00-h
-1.01 H	1.01 H	TRUE	1-01-h
-1.02 H	1.02 H	TRUE	1-02-h
-1.42	1.42	TRUE	1-42
-1.43	1.43	TRUE	1-43
-1.44	1.44	TRUE	1-44
-1.45	1.45	TRUE	1-45
-Interlude	Interlude	TRUE	interlude-2
-2.00	2.01	FALSE	2-01
-2.01	2.02	FALSE	2-02
-2.02	2.03	FALSE	2-03
-2.03	2.04	FALSE	2-04
-2.04	2.05	FALSE	2-05
-2.05	2.06	FALSE	2-06
-2.06	2.07	FALSE	2-07
-2.07	2.08	FALSE	2-08
-2.08	2.09	FALSE	2-09
-2.10 T	2.10	FALSE	2-00-t
-2.09	2.00 T	FALSE	2-10
-2.11	2.11	TRUE	2-11
-2.12	2.12	TRUE	2-12
-2.13	2.13	TRUE	2-13
-2.14 G	2.00 G	FALSE	2-00-g
-S01 – Mating Rituals	S01 - Mating Rituals	FALSE	side-story-mating-rituals
-2.15	2.14	FALSE	2-14
-2.16	2.15	FALSE	2-15
-2.17	2.16	FALSE	2-16
-1.00 C	1.00 C	TRUE	1-00-c
-2.18	2.17	FALSE	2-17
-1.01 C	1.01 C	TRUE	1-01-c
-2.19 G	2.01 G	FALSE	2-01-g
-2.20	2.18	FALSE	2-18
-2.21	2.19	FALSE	2-19
-2.22 K	2.00 K	FALSE	2-00-k
-2.23	2.20	FALSE	2-20
-2.24 T	2.01 T	FALSE	2-01-t
-2.25	2.21	FALSE	2-21
-2.26	2.22	FALSE	2-22
-2.27 G	2.02 G	FALSE	2-02-g
-2.28	2.23	FALSE	2-23
-2.29	2.24	FALSE	2-24
-2.30	2.25	FALSE	2-25
-S02 – The Antinium Wars (Pt.1)	S02 – The Antinium Wars (Pt.1)	TRUE	s02-the-antinium-wars-pt-1
-2.31	2.26	FALSE	2-26
-S02 – The Antinium Wars (Pt.2)	S02 – The Antinium Wars (Pt.2)	TRUE	s02-the-antinium-wars-pt-2
-2.32 H	2.00 H	FALSE	2-00-h
-2.33	2.27	FALSE	2-27
-2.34	2.28	FALSE	2-28
-2.35	2.29	FALSE	2-29
-2.36 G	2.03 G	FALSE	2-03-g
-2.37	2.30	FALSE	2-30
-2.38	2.31	FALSE	2-31
-Interlude	Interlude	TRUE	interlude-3
-2.39	2.32	FALSE	2-32
-S03 – Wistram Days (Pt. 1)	S03 – Wistram Days (Pt. 1)	TRUE	s03-wistram-days-pt-1
-2.40	2.33	FALSE	2-33
-2.41	2.34	FALSE	2-34
-2.42	2.35	FALSE	2-35
-2.43	2.36	FALSE	2-36
-1.00 D	1.00 D	TRUE	1-00-d
-1.01 D	1.01 D	TRUE	1-01-d
-2.44	2.37	FALSE	2-37
-2.45	2.38	FALSE	2-38
-2.46	2.39	FALSE	2-39
-2.47	2.40	FALSE	2-40
-2.48	2.41	FALSE	2-41
-3.00 E	3.00 E	TRUE	3-00-e
-3.01 E	3.01 E	TRUE	3-01-e
-3.02 H	3.02 H	TRUE	3-02-h
-3.03	3.03	TRUE	3-03
-3.04	3.04	TRUE	3-04
-3.05 L	3.05 L	TRUE	3-05-l
-3.06 L	3.06 L	TRUE	3-06-l
-3.07 H	3.07 H	TRUE	3-07-h
-3.08 H	3.08 H	TRUE	3-08-h
-S03 – Wistram Days (Pt. 2)	S03 – Wistram Days (Pt. 2)	TRUE	s03-wistram-days-pt-2
-3.09	3.09	TRUE	3-09
-3.10	3.10	TRUE	3-10
-3.11 E	3.11 E	TRUE	3-11-e
-3.12 E	3.12 E	TRUE	3-12-e
-3.13	3.13	TRUE	3-13
-3.14	3.14	TRUE	3-14
-3.15	3.15	TRUE	3-15
-3.16	3.16	TRUE	3-16
-3.17 T	3.17 T	TRUE	3-17-t
-3.18 T	3.18 T	TRUE	3-18-t
-3.19 T	3.19 T	TRUE	3-19-t
-3.20 T	3.20 T	TRUE	3-20-t
-3.21 L	3.21 L	TRUE	3-21-l
-3.22 L	3.22 L	TRUE	3-22-l
-3.23 L	3.23 L	TRUE	3-23-l
-3.24	3.24	TRUE	3-24
-3.25	3.25	TRUE	3-25
-3.26 G	3.26 G	TRUE	3-26-g
-3.27 M	3.27 M	TRUE	3-27-m
-3.28 G	3.28 G	TRUE	3-28-g
-3.29 G	3.29 G	TRUE	3-29-g
-3.30	3.30	TRUE	3-30
-3.31 G	3.31 G	TRUE	3-31-g
-S03 – Wistram Days (Pt. 3)	Wistram Days (Pt. 3)	FALSE	wistram-days-pt-3
-S03 – Wistram Days (Pt. 4)	Wistram Days (Pt. 4)	FALSE	wistram-days-pt-4
-S03 – Wistram Days (Pt. 5)	Wistram Days (Pt. 5)	FALSE	wistram-days-pt-5
-S03 – Wistram Days (Pt. 6)	Wistram Days (Pt. 6)	FALSE	wistram-days-pt-6
-S03 – Wistram Days (Pt. 7)	Wistram Days (Pt. 7)	FALSE	wistram-days-pt-7
-3.32	3.32	TRUE	3-32
-3.33	3.33	TRUE	3-33
-3.34	3.34	TRUE	3-34
-3.35	3.35	TRUE	3-35
-3.36	3.36	TRUE	3-36
-3.37	3.37	TRUE	3-37
-3.38	3.38	TRUE	3-38
-3.39	3.39	TRUE	3-39
-3.40	3.40	TRUE	3-40
-3.41	3.41	TRUE	3-41
-3.42	3.42	TRUE	3-42
-Interlude	Interlude	TRUE	interlude-4
-4.00 K	4.00 K	TRUE	4-00-k
-4.01 K	4.01 K	TRUE	4-01-k
-4.02 K	4.02 K	TRUE	4-02-k
-4.03 K	4.03 K	TRUE	4-03-k
-4.04 K	4.04 K	TRUE	4-04-k
-4.05 K	4.05 K	TRUE	4-05-k
-4.06 KM	4.06 KM	TRUE	4-06-km
-4.07	4.07	TRUE	4-07
-4.08 T	4.08 T	TRUE	4-08-t
-4.09	4.09	TRUE	4-09
-4.10	4.10	TRUE	4-10
-4.11	4.11	TRUE	4-11
-4.12	4.12	TRUE	4-12
-4.13 L	4.13 L	TRUE	4-13-l
-4.14 L	4.14 L	TRUE	4-14-l
-4.15 L	4.15 L	TRUE	4-15-l
-4.16	4.16	TRUE	4-16
-4.17	4.17	TRUE	4-17
-1.02 D	1.02 D	TRUE	1-02-d
-1.03 D	1.03 D	TRUE	1-03-d
-1.04 D	1.04 D	TRUE	1-04-d
-1.05 D	1.05 D	TRUE	1-05-d
-1.06 D	1.06 D	TRUE	1-06-d
-4.18	4.18	TRUE	4-18
-4.19	4.19	TRUE	4-19
-4.20 E	4.20 E	TRUE	4-20-e
-4.21 E	4.21 E	TRUE	4-21-e
-4.22 E	4.22 E	TRUE	4-22-e
-4.23 E	4.23 E	TRUE	4-23-e
-4.24	4.24	TRUE	4-24
-4.25 N	4.25 N	TRUE	4-25-n
-4.26 M	4.26 M	TRUE	4-26-m
-4.27 H	4.27 H	TRUE	4-27-h
-4.28	4.28	TRUE	4-28
-4.29	4.29	TRUE	4-29
-4.30	4.30	TRUE	4-30
-4.31	4.31	TRUE	4-31
-4.32 G	4.32 G	TRUE	4-32-g
-1.02 C	1.02 C	TRUE	1-02-d-2
-1.03 C	1.03 C	TRUE	1-03-d-2
-1.04 C	1.04 C	TRUE	1-04-c
-1.05 C	1.05 C	TRUE	1-05-c
-4.33	4.33	TRUE	4-33
-4.34	4.34	TRUE	4-34
-4.35 E	4.35 E	TRUE	4-35-e
-4.36 O	4.36 O	TRUE	4-36-o
-4.37 O	4.37 O	TRUE	4-37-o
-4.38 B	4.38 B	TRUE	4-38-n
-4.39 G	4.39 G	TRUE	4-39-g
-4.40 L	4.40 L	TRUE	4-40-l
-4.41 L	4.41 L	TRUE	4-41-l
-4.42 L	4.42 L	TRUE	4-42-l
-4.43	4.43	TRUE	4-43
-4.44 M	4.44 M	TRUE	4-44-m
-4.45	4.45	TRUE	4-45
-4.46	4.46	TRUE	4-46
-4.47	4.47	TRUE	4-47
-S02 – The Antinium Wars (Pt.3)	S02 – The Antinium Wars (Pt.3)	TRUE	s02-the-antinium-wars-pt-3
-S02 – The Antinium Wars (Pt.4)	S02 – The Antinium Wars (Pt.4)	TRUE	s02-the-antinium-wars-pt-4
-S02 – The Antinium Wars (Pt.5)	S02 – The Antinium Wars (Pt.5)	TRUE	s02-the-antinium-wars-pt-5
-4.48	4.48	TRUE	4-48
-4.49	4.49	TRUE	4-49
-The Depthless Doctor	The Depthless Doctor	TRUE	the-depthless-doctor
-5.00	5.00	TRUE	5-00
-5.01	5.01	TRUE	5-01
-5.02	5.02	TRUE	5-02
-5.03	5.03	TRUE	5-03
-5.04	5.04	TRUE	5-04
-5.05	5.05	TRUE	5-05
-5.06 M	5.06 M	TRUE	5-06-m
-5.07	5.07	TRUE	5-07
-5.08	5.08	TRUE	5-08
-Interlude – Flos	Interlude – Flos	TRUE	interlude-flos
-5.09 E	5.09 E	TRUE	5-09-e
-5.10 E	5.10 E	TRUE	5-10-e
-5.11 E	5.11 E	TRUE	5-11-e
-5.12	5.12	TRUE	5-12
-5.13	5.13	TRUE	5-13
-5.14	5.14	TRUE	5-14
-5.15	5.15	TRUE	5-15
-5.16 S	5.16 S	TRUE	5-16-s
-5.17 S	5.17 S	TRUE	5-17-s
-5.18 S	5.18 S	TRUE	5-18-s
-5.19 G	5.19 G	TRUE	5-19-g
-5.20 G	5.20 G	TRUE	5-20-g
-5.21 E	5.21 E	TRUE	5-21-e
-5.22 G	5.22 G	TRUE	5-22-g
-5.23 G	5.23 G	TRUE	5-23-g
-5.24 L	5.24 L	TRUE	5-24-l
-5.25 L	5.25 L	TRUE	5-25-l
-5.26 L	5.26 L	TRUE	5-26-l
-5.27	5.27	TRUE	5-27
-5.28	5.28	TRUE	5-28
-5.29	5.29	TRUE	5-29
-5.30 G	5.30 G	TRUE	5-30-g
-5.31 G	5.31 G	TRUE	5-31-g
-5.32 G	5.32 G	TRUE	5-32-g
-5.33 B	5.33 B	TRUE	5-33-b
-Interlude – Blackmage	Interlude – Blackmage	TRUE	interlude-blackmage
-5.34	5.34	TRUE	5-34
-5.35 H	5.35 H	TRUE	5-35-h
-5.36	5.36	TRUE	5-36
-5.37 G	5.37 G	TRUE	5-37-g
-5.38	5.38	TRUE	5-38
-5.39	5.39	TRUE	5-39
-5.40	5.40	TRUE	5-40
-5.41	5.41	TRUE	5-41
-5.42	5.42	TRUE	5-42
-5.43	5.43	TRUE	5-43
-Interlude – Niers	Interlude – Niers	TRUE	interlude-niers
-5.44	5.44	TRUE	5-44
-5.45	5.45	TRUE	5-45
-5.46	5.46	TRUE	5-46
-5.47 G	5.47 G	TRUE	5-47-g
-5.48 G	5.48 G	TRUE	5-48-g
-5.49	5.49	TRUE	5-49
-5.50 G	5.50 G	TRUE	5-50-g
-Interlude – Bird	Interlude – Bird	TRUE	interlude-bird
-5.51 G	5.51 G	TRUE	5-51-g
-5.52	5.52	TRUE	5-52
-5.53	5.53	TRUE	5-53
-5.54 (Non-Canon)	5.54 (Non-Canon)	TRUE	5-54
-5.54	5.54	TRUE	5-54-2
-Interlude – Krshia	Interlude – Krshia	TRUE	interlude-krshia
-5.55 G	5.55 G	TRUE	5-55-g
-5.56 G	5.56 G	TRUE	5-56-g
-5.57	5.57	TRUE	5-57
-5.58	5.58	TRUE	5-58
-5.59	5.59	TRUE	5-59
-5.60	5.60	TRUE	5-60
-Interlude – Pebblesnatch and Garry	Interlude – Pebblesnatch and Garry	TRUE	interlude-pebblesnatch-and-garry
-5.61	5.61	TRUE	5-61
-5.62	5.62	TRUE	5-62
-Interlude	Interlude	TRUE	interlude-5
-6.00	6.00	TRUE	6-00
-6.01	6.01	TRUE	6-01
-6.02	6.02	TRUE	6-02
-6.03	6.03	TRUE	6-03
-6.04 D	6.04 D	TRUE	6-04-d
-6.05 D	6.05 D	TRUE	6-05-d
-6.06 D	6.06 D	TRUE	6-06-d
-6.07 D	6.07 D	TRUE	6-07-d
-6.08	6.08	TRUE	6-08
-6.09	6.09	TRUE	6-09
-6.10	6.10	TRUE	6-10
-6.11	6.11	TRUE	6-11
-6.12 K	6.12 K	TRUE	6-12-k
-6.13 K	6.13 K	TRUE	6-13-k
-6.14 K	6.14 K	TRUE	6-14-k
-6.15 K	6.15 K	TRUE	6-15-k
-6.16	6.16	TRUE	6-16
-6.17 S	6.17 S	TRUE	6-17-s
-6.18 H	6.18 H	TRUE	6-18-h
-6.19 H	6.19 H	TRUE	6-19-h
-6.20 D	6.20 D	TRUE	6-20-d
-6.21 D	6.21 D	TRUE	5-21-d
-6.22 D	6.22 D	TRUE	6-22-d
-6.23 D	6.23 D	TRUE	6-23-d
-6.24 D	6.24 D	TRUE	6-24-d
-6.25	6.25	TRUE	6-25
-6.26	6.26	TRUE	6-26
-6.27 M	6.27 M	TRUE	6-27-m
-6.28	6.28	TRUE	6-28
-6.29	6.29	TRUE	6-29
-Interlude – Embria	Interlude – Embria	TRUE	interlude-embria
-6.30	6.30	TRUE	6-30
-6.31	6.31	TRUE	6-31
-6.32	6.32	TRUE	6-32
-6.33 E	6.33 E	TRUE	6-33-e
-6.34 E	6.34 E	TRUE	6-34-e
-Interlude – Numbtongue (Pt.1)	Interlude – Numbtongue (Pt.1)	TRUE	interlude-numbtongue-pt-1
-Interlude – Numbtongue (Pt.2)	Interlude – Numbtongue (Pt.2)	TRUE	interlude-numbtongue-pt-2
-6.35	6.35	TRUE	6-35
-6.36 E	6.36 E	TRUE	6-36-e
-6.37 E	6.37 E	TRUE	6-37-e
-6.38	6.38	TRUE	6-38
-6.39	6.39	TRUE	6-39
-6.40 E	6.40 E	TRUE	6-40-e
-6.41 E	6.41 E	TRUE	6-41-e
-Interlude – Two Rats	Interlude – Two Rats	TRUE	interlude-two-rats
-Interlude – Rufelt	Interlude – Rufelt	TRUE	interlude-rufelt
-6.42 E	6.42 E	TRUE	6-42-e
-6.43 E	6.43 E	TRUE	6-43-e
-6.44 E	6.44 E	TRUE	6-44-e
-6.45 E	6.45 E	TRUE	6-45-e
-6.46 E	6.46 E	TRUE	6-46-e
-6.47 E	6.47 E	TRUE	6-47-e
-6.48 T	6.48 T	TRUE	6-48-t
-6.49	6.49	TRUE	6-49
-6.50 I	6.50 I	TRUE	6-50-i
-6.51 A	6.51 A	TRUE	6-51-a
-6.52 K	6.52 K	TRUE	6-52-k
-6.53 K	6.53 K	TRUE	6-53-k
-6.54 K	6.54 K	TRUE	6-54-k
-6.55 K	6.55 K	TRUE	6-55-k
-Interlude – The Titan’s Question	Interlude – The Titan’s Question	TRUE	interlude-the-titans-question
-6.56	6.56	TRUE	6-56
-6.57	6.57	TRUE	6-57
-6.58	6.58	TRUE	6-58
-6.59	6.59	TRUE	6-59
-6.60	6.60	TRUE	6-60
-Interlude – Talia	Interlude – Talia	TRUE	interlude-talia
-6.61 L	6.61 L	TRUE	6-61-l
-6.62 L	6.62 L	TRUE	6-62-l
-Interlude – Foliana	Interlude – Foliana	TRUE	interlude-foliana
-6.63 P	6.63 P	TRUE	6-63-p
-6.64	6.64	TRUE	6-64
-6.65	6.65	TRUE	6-65
-6.66 H	6.66 H	TRUE	6-66-h
-6.67	6.67	TRUE	6-67
-6.68	6.68	TRUE	6-68
-7.00	7.00	TRUE	7-00
-7.01	7.01	TRUE	7-01
-7.02	7.02	TRUE	7-02
-7.03	7.03	TRUE	7-03
-Mini Chapter #1	Mini Stories – Crabs and Drinks	FALSE	mini-stories-crabs-and-drinks
-7.04	7.04	TRUE	7-04
-Interlude – Queens and Dragons	Interlude – Queens and Dragons	TRUE	interlude-queens-and-dragons
-7.05 P	7.05 P	TRUE	7-05-p
-7.06	7.06	TRUE	7-06
-7.07	7.07	TRUE	7-07
-7.08 K	7.08 K	TRUE	7-08-k
-7.09 K	7.09 K	TRUE	7-09-k
-7.10 K	7.10 K	TRUE	7-10-k
-7.11	7.11	TRUE	7-11
-Interlude – Dancing and Brawling	Interlude – Dancing and Brawling	TRUE	interlude-dancing-and-brawling
-Interlude – Chocolate Gold	Interlude – Chocolate Gold	TRUE	interlude-chocolate-gold
-Interlude – Chess and Ships	Interlude – Chess and Ships	TRUE	interlude-chess-and-ships
-Interlude – Chocolate Alchemy	Interlude – Chocolate Alchemy	TRUE	interlude-chocolate-alchemy
-Interlude – Lifting Ants	Interlude – Lifting Ants	TRUE	interlude-lifting-ants
-Interlude – Burning Alcohol	Interlude – Burning Alcohol	TRUE	interlude-burning-alcohol
-Interlude – The Hangover After	Interlude – The Hangover After	TRUE	interlude-the-hangover-after
-7.12 G	7.12 G	TRUE	7-12-g
-7.13 K	7.13 K	TRUE	7-13-k
-Mating Rituals Pt.2	Mating Rituals Pt.2	TRUE	mating-rituals-pt-2
-7.14 T	7.14 T	TRUE	7-14-t
-7.15 R	7.15 R	TRUE	7-15-r
-7.16 L	7.16 L	TRUE	7-16-l
-7.17 S	7.17 S	TRUE	7-17-s
-7.18 M	7.18 M	TRUE	7-18-m
-Interlude – Strategists at Sea (Pt. 1)	Interlude – Strategists at Sea (Pt. 1)	TRUE	interlude-strategists-at-sea-pt-1
-Interlude – Strategists at Sea (Pt. 2)	Interlude – Strategists at Sea (Pt. 2)	TRUE	interlude-strategists-at-sea-pt-2
-7.19	7.19	TRUE	7-19
-7.20	7.20	TRUE	7-20
+﻿wordpress_title,royal_road_title,url,same,slug
+1.00,1.00,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113220/100,TRUE,1-00
+1.01,1.01,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113248/101,TRUE,1-01
+1.02,1.02,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113250/102,TRUE,1-02
+1.03,1.03,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113252/103,TRUE,1-03
+1.04,1.04,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113253/104,TRUE,1-04
+1.05,1.05,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113254/105,TRUE,1-05
+1.06,1.06,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113255/106,TRUE,1-06
+1.07,1.07,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113256/107,TRUE,1-07
+1.08,1.08,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113257/108,TRUE,1-08
+1.09,1.09,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113258/109,TRUE,1-09
+1.10,1.10,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113259/110,TRUE,1-10
+1.11,1.11,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113260/111,TRUE,1-11
+Interlude,Interlude,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113261/interlude,TRUE,interlude
+1.12,1.12,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113262/112,TRUE,1-12
+1.13,1.13,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113263/113,TRUE,1-13
+1.14,1.14,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113264/114,TRUE,1-14
+1.15,1.15,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113265/115,TRUE,1-15
+1.16,1.16,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113267/116,TRUE,1-16
+1.17,1.17,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113268/117,TRUE,1-17
+1.18,1.18,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113269/118,TRUE,1-18
+1.19,1.19,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113270/119,TRUE,1-19
+1.20,1.20,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113271/120,TRUE,1-20
+Interlude – 1.00 R,Interlude - 1.00 R,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113272/interlude-100-r,FALSE,interlude-1-00-r
+1.01 R,1.01 R,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113273/101-r,TRUE,1-01-r
+1.21,1.21,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113274/121,TRUE,1-21
+1.22,1.22,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113275/122,TRUE,1-22
+1.23,1.23,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113276/123,TRUE,1-23
+Interlude: King Edition,Interlude - King Edition,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113277/interlude-king-edition,FALSE,interlude-king-edition
+1.24,1.24,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113278/124,TRUE,1-24
+1.02 R,1.02 R,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113279/102-r,TRUE,1-02-r
+1.03 R,1.03 R,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113280/103-r,TRUE,1-03-r
+1.25,1.25,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113281/125,TRUE,1-25
+1.26,1.26,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113282/126,TRUE,1-26
+1.27,1.27,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113283/127,TRUE,1-27
+1.04 R,1.04 R,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113284/104-r,TRUE,1-04-r
+1.05 R,1.05 R,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113285/105-r,TRUE,1-05-r
+1.28,1.28,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113293/128,TRUE,1-28
+1.06 R,1.06 R,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113294/106-r,TRUE,1-06-r
+1.29,1.29,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113295/129,TRUE,1-29
+1.30,1.30,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113296/130,TRUE,1-30
+1.31,1.31,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113297/131,TRUE,1-31
+1.07 R,1.07 R,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113298/107-r,TRUE,1-07-r
+1.08 R,1.08 R,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113299/108-r,TRUE,1-08-r
+1.32,1.32,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113300/132,TRUE,1-32
+1.33,1.33,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113301/133,TRUE,1-33
+1.09 R,1.09 R,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113302/109-r,TRUE,1-09-r
+1.10 R,1.10 R,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113303/110-r,TRUE,1-10-r
+1.34,1.34,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113304/134,TRUE,1-34
+1.35,1.35,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113305/135,TRUE,1-35
+1.11 R,1.11 R,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113306/111-r,TRUE,1-11-r
+1.12 R,1.12 R,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113307/112-r,TRUE,1-12-r
+1.36,1.36,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/113308/136,TRUE,1-36
+1.37,1.37,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/114063/137,TRUE,1-37
+1.38,1.38,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/114725/138,TRUE,1-38
+1.39,1.39,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/115582/139,TRUE,1-39
+1.40,1.40,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/116030/140,TRUE,1-40
+1.13 R,1.13 R,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/116969/113-r,TRUE,1-13-r
+1.41,1.41,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/117575/141,TRUE,1-41
+1.00 H,1.00 H,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/118372/100-h,TRUE,1-00-h
+1.01 H,1.01 H,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/118927/101-h,TRUE,1-01-h
+1.02 H,1.02 H,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/119579/102-h,TRUE,1-02-h
+1.42,1.42,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/120147/142,TRUE,1-42
+1.43,1.43,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/121000/143,TRUE,1-43
+1.44,1.44,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/121486/144,TRUE,1-44
+1.45,1.45,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/122274/145,TRUE,1-45
+Interlude,Interlude,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/122812/interlude,TRUE,interlude-2
+2.00,2.01,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/123656/201,FALSE,2-01
+2.01,2.02,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/124190/202,FALSE,2-02
+2.02,2.03,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/124846/203,FALSE,2-03
+2.03,2.04,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/125478/204,FALSE,2-04
+2.04,2.05,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/126197/205,FALSE,2-05
+2.05,2.06,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/126733/206,FALSE,2-06
+2.06,2.07,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/127502/207,FALSE,2-07
+2.07,2.08,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/128038/208,FALSE,2-08
+2.08,2.09,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/128761/209,FALSE,2-09
+2.10 T,2.00 T,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/129550/200-t,FALSE,2-00-t
+2.09,2.10,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/129407/210,FALSE,2-10
+2.11,2.11,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/129746/211,TRUE,2-11
+2.12,2.12,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/129948/212,TRUE,2-12
+2.13,2.13,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/130118/213,TRUE,2-13
+2.14 G,2.00 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/130333/200-g,FALSE,2-00-g
+S01 – Mating Rituals,S01 - Mating Rituals,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/130437/s01-mating-rituals,FALSE,side-story-mating-rituals
+2.15,2.14,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/130683/214,FALSE,2-14
+2.16,2.15,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/131555/215,FALSE,2-15
+2.17,2.16,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/132106/216,FALSE,2-16
+1.00 C,1.00 C,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/137446/100-c,TRUE,1-00-c
+2.18,2.17,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/132584/217,FALSE,2-17
+1.01 C,1.01 C,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/137641/101-c,TRUE,1-01-c
+2.19 G,2.01 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/132942/201-g,FALSE,2-01-g
+2.20,2.18,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/133516/218,FALSE,2-18
+2.21,2.19,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/133890/219,FALSE,2-19
+2.22 K,2.00 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/134447/200-k,FALSE,2-00-k
+2.23,2.20,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/135030/220,FALSE,2-20
+2.24 T,2.01 T,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/135892/201-t,FALSE,2-01-t
+2.25,2.21,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/136456/221,FALSE,2-21
+2.26,2.22,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/137249/222,FALSE,2-22
+2.27 G,2.02 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/137762/202-g,FALSE,2-02-g
+2.28,2.23,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/138189/223,FALSE,2-23
+2.29,2.24,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/138562/224,FALSE,2-24
+2.30,2.25,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/139209/225,FALSE,2-25
+S02 – The Antinium Wars (Pt.1),S02 – The Antinium Wars (Pt.1),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/145560/s02-the-antinium-wars-pt1,TRUE,s02-the-antinium-wars-pt-1
+2.31,2.26,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/139932/226,FALSE,2-26
+S02 – The Antinium Wars (Pt.2),S02 – The Antinium Wars (Pt.2),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/145729/s02-the-antinium-wars-pt2,TRUE,s02-the-antinium-wars-pt-2
+2.32 H,2.00 H,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/140545/200-h,FALSE,2-00-h
+2.33,2.27,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/140992/227,FALSE,2-27
+2.34,2.28,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/141378/228,FALSE,2-28
+2.35,2.29,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/141977/229,FALSE,2-29
+2.36 G,2.03 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/142790/203-g,FALSE,2-03-g
+2.37,2.30,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/143413/230,FALSE,2-30
+2.38,2.31,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/144417/231,FALSE,2-31
+Interlude,Interlude,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/145137/interlude,TRUE,interlude-3
+2.39,2.32,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/145951/232,FALSE,2-32
+S03 – Wistram Days (Pt. 1),S03 – Wistram Days (Pt. 1),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/150678/s03-wistram-days-pt-1,TRUE,s03-wistram-days-pt-1
+2.40,2.33,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/146490/233,FALSE,2-33
+2.41,2.34,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/147428/234,FALSE,2-34
+2.42,2.35,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/148026/235,FALSE,2-35
+2.43,2.36,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/148883/236,FALSE,2-36
+1.00 D,1.00 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/157518/100-d,TRUE,1-00-d
+1.01 D,1.01 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/157662/101-d,TRUE,1-01-d
+2.44,2.37,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/149558/237,FALSE,2-37
+2.45,2.38,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/150311/238,FALSE,2-38
+2.46,2.39,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/150856/239,FALSE,2-39
+2.47,2.40,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/151713/240,FALSE,2-40
+2.48,2.41,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/152391/241,FALSE,2-41
+3.00 E,3.00 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/153328/300-e,TRUE,3-00-e
+3.01 E,3.01 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/154082/301-e,TRUE,3-01-e
+3.02 H,3.02 H,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/155009/302-h,TRUE,3-02-h
+3.03,3.03,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/155634/303,TRUE,3-03
+3.04,3.04,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/156603/304,TRUE,3-04
+3.05 L,3.05 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/157217/305-l,TRUE,3-05-l
+3.06 L,3.06 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/158090/306-l,TRUE,3-06-l
+3.07 H,3.07 H,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/158691/307-h,TRUE,3-07-h
+3.08 H,3.08 H,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/159558/308-h,TRUE,3-08-h
+S03 – Wistram Days (Pt. 2),S03 – Wistram Days (Pt. 2),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/164489/s03-wistram-days-pt-2,TRUE,s03-wistram-days-pt-2
+3.09,3.09,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/160189/309,TRUE,3-09
+3.10,3.10,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/161001/310,TRUE,3-10
+3.11 E,3.11 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/161649/311-e,TRUE,3-11-e
+3.12 E,3.12 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/162356/312-e,TRUE,3-12-e
+3.13,3.13,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/162978/313,TRUE,3-13
+3.14,3.14,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/163720/314,TRUE,3-14
+3.15,3.15,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/164317/315,TRUE,3-15
+3.16,3.16,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/164692/316,TRUE,3-16
+3.17 T,3.17 T,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/164903/317-t,TRUE,3-17-t
+3.18 T,3.18 T,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/165096/318-t,TRUE,3-18-t
+3.19 T,3.19 T,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/165749/319-t,TRUE,3-19-t
+3.20 T,3.20 T,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/166504/320-t,TRUE,3-20-t
+3.21 L,3.21 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/167236/321-l,TRUE,3-21-l
+3.22 L,3.22 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/168030/322-l,TRUE,3-22-l
+3.23 L,3.23 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/168713/323-l,TRUE,3-23-l
+3.24,3.24,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/169494/324,TRUE,3-24
+3.25,3.25,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/170126/325,TRUE,3-25
+3.26 G,3.26 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/170853/326-g,TRUE,3-26-g
+3.27 M,3.27 M,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/170854/327-m,TRUE,3-27-m
+3.28 G,3.28 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/171439/328-g,TRUE,3-28-g
+3.29 G,3.29 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/172222/329-g,TRUE,3-29-g
+3.30,3.30,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/172869/330,TRUE,3-30
+3.31 G,3.31 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/173631/331-g,TRUE,3-31-g
+S03 – Wistram Days (Pt. 3),Wistram Days (Pt. 3),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/174294/wistram-days-pt-3,FALSE,wistram-days-pt-3
+S03 – Wistram Days (Pt. 4),Wistram Days (Pt. 4),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/174295/wistram-days-pt-4,FALSE,wistram-days-pt-4
+S03 – Wistram Days (Pt. 5),Wistram Days (Pt. 5),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/175011/wistram-days-pt-5,FALSE,wistram-days-pt-5
+S03 – Wistram Days (Pt. 6),Wistram Days (Pt. 6),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/175626/wistram-days-pt-6,FALSE,wistram-days-pt-6
+S03 – Wistram Days (Pt. 7),Wistram Days (Pt. 7),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/176366/wistram-days-pt-7,FALSE,wistram-days-pt-7
+3.32,3.32,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/176924/332,TRUE,3-32
+3.33,3.33,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/177757/333,TRUE,3-33
+3.34,3.34,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/178377/334,TRUE,3-34
+3.35,3.35,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/179231/335,TRUE,3-35
+3.36,3.36,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/179825/336,TRUE,3-36
+3.37,3.37,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/180531/337,TRUE,3-37
+3.38,3.38,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/181167/338,TRUE,3-38
+3.39,3.39,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/181974/339,TRUE,3-39
+3.40,3.40,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/182364/340,TRUE,3-40
+3.41,3.41,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/182365/341,TRUE,3-41
+3.42,3.42,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/183462/342,TRUE,3-42
+Interlude,Interlude,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/184019/interlude,TRUE,interlude-4
+4.00 K,4.00 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/185544/400-k,TRUE,4-00-k
+4.01 K,4.01 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/186456/401-k,TRUE,4-01-k
+4.02 K,4.02 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/187249/402-k,TRUE,4-02-k
+4.03 K,4.03 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/188165/403-k,TRUE,4-03-k
+4.04 K,4.04 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/188951/404-k,TRUE,4-04-k
+4.05 K,4.05 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/189915/405-k,TRUE,4-05-k
+4.06 KM,4.06 KM,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/190711/406-km,TRUE,4-06-km
+4.07,4.07,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/191747/407,TRUE,4-07
+4.08 T,4.08 T,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/191748/408-t,TRUE,4-08-t
+4.09,4.09,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/192551/409,TRUE,4-09
+4.10,4.10,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/193466/410,TRUE,4-10
+4.11,4.11,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/194194/411,TRUE,4-11
+4.12,4.12,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/195095/412,TRUE,4-12
+4.13 L,4.13 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/195743/413-l,TRUE,4-13-l
+4.14 L,4.14 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/196614/414-l,TRUE,4-14-l
+4.15 L,4.15 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/196615/415-l,TRUE,4-15-l
+4.16,4.16,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/197365/416,TRUE,4-16
+4.17,4.17,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/198278/417,TRUE,4-17
+1.02 D,1.02 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/198279/102-d,TRUE,1-02-d
+1.03 D,1.03 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/199056/103-d,TRUE,1-03-d
+1.04 D,1.04 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/199937/104-d,TRUE,1-04-d
+1.05 D,1.05 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/199936/105-d,TRUE,1-05-d
+1.06 D,1.06 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/200653/106-d,TRUE,1-06-d
+4.18,4.18,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/201619/418,TRUE,4-18
+4.19,4.19,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/202322/419,TRUE,4-19
+4.20 E,4.20 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/203180/420-e,TRUE,4-20-e
+4.21 E,4.21 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/203885/421-e,TRUE,4-21-e
+4.22 E,4.22 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/204821/422-e,TRUE,4-22-e
+4.23 E,4.23 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/204822/423-e,TRUE,4-23-e
+4.24,4.24,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/205579/424,TRUE,4-24
+4.25 N,4.25 N,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/206449/425-n,TRUE,4-25-n
+4.26 M,4.26 M,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/207204/426-m,TRUE,4-26-m
+4.27 H,4.27 H,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/208161/427-h,TRUE,4-27-h
+4.28,4.28,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/208843/428,TRUE,4-28
+4.29,4.29,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/209818/429,TRUE,4-29
+4.30,4.30,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/210658/430,TRUE,4-30
+4.31,4.31,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/211673/431,TRUE,4-31
+4.32 G,4.32 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/212373/432-g,TRUE,4-32-g
+1.02 C,1.02 C,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/213494/102-c,TRUE,1-02-d-2
+1.03 C,1.03 C,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/213495/103-c,TRUE,1-03-d-2
+1.04 C,1.04 C,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/214148/104-c,TRUE,1-04-c
+1.05 C,1.05 C,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/214149/105-c,TRUE,1-05-c
+4.33,4.33,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/215113/433,TRUE,4-33
+4.34,4.34,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/215915/434,TRUE,4-34
+4.35 E,4.35 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/217020/435-e,TRUE,4-35-e
+4.36 O,4.36 O,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/217776/436-o,TRUE,4-36-o
+4.37 O,4.37 O,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/217777/437-o,TRUE,4-37-o
+4.38 B,4.38 B,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/218795/438-b,TRUE,4-38-n
+4.39 G,4.39 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/219608/439-g,TRUE,4-39-g
+4.40 L,4.40 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/220756/440-l,TRUE,4-40-l
+4.41 L,4.41 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/221512/441-l,TRUE,4-41-l
+4.42 L,4.42 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/221513/442-l,TRUE,4-42-l
+4.43,4.43,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/222668/443,TRUE,4-43
+4.44 M,4.44 M,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/223656/444-m,TRUE,4-44-m
+4.45,4.45,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/224948/445,TRUE,4-45
+4.46,4.46,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/225794/446,TRUE,4-46
+4.47,4.47,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/227001/447,TRUE,4-47
+S02 – The Antinium Wars (Pt.3),S02 – The Antinium Wars (Pt.3),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/228014/s02-the-antinium-wars-pt3,TRUE,s02-the-antinium-wars-pt-3
+S02 – The Antinium Wars (Pt.4),S02 – The Antinium Wars (Pt.4),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/228944/s02-the-antinium-wars-pt4,TRUE,s02-the-antinium-wars-pt-4
+S02 – The Antinium Wars (Pt.5),S02 – The Antinium Wars (Pt.5),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/228945/s02-the-antinium-wars-pt5,TRUE,s02-the-antinium-wars-pt-5
+4.48,4.48,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/231712/448,TRUE,4-48
+4.49,4.49,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/232638/449,TRUE,4-49
+The Depthless Doctor,The Depthless Doctor,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/232639/the-depthless-doctor,TRUE,the-depthless-doctor
+5.00,5.00,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/234005/500,TRUE,5-00
+5.01,5.01,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/235029/501,TRUE,5-01
+5.02,5.02,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/236452/502,TRUE,5-02
+5.03,5.03,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/237338/503,TRUE,5-03
+5.04,5.04,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/237340/504,TRUE,5-04
+5.05,5.05,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/238640/505,TRUE,5-05
+5.06 M,5.06 M,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/239596/506-m,TRUE,5-06-m
+5.07,5.07,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/239597/507,TRUE,5-07
+5.08,5.08,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/240839/508,TRUE,5-08
+Interlude – Flos,Interlude – Flos,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/241843/interlude-flos,TRUE,interlude-flos
+5.09 E,5.09 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/243014/509-e,TRUE,5-09-e
+5.10 E,5.10 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/243967/510-e,TRUE,5-10-e
+5.11 E,5.11 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/282891/511-e,TRUE,5-11-e
+5.12,5.12,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/283762/512,TRUE,5-12
+5.13,5.13,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/284925/513,TRUE,5-13
+5.14,5.14,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/285713/514,TRUE,5-14
+5.15,5.15,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/286787/515,TRUE,5-15
+5.16 S,5.16 S,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/287700/516-s,TRUE,5-16-s
+5.17 S,5.17 S,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/287701/517-s,TRUE,5-17-s
+5.18 S,5.18 S,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/288607/518-s,TRUE,5-18-s
+5.19 G,5.19 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/289424/519-g,TRUE,5-19-g
+5.20 G,5.20 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/290609/520-g,TRUE,5-20-g
+5.21 E,5.21 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/291446/521-e,TRUE,5-21-e
+5.22 G,5.22 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/292813/522-g,TRUE,5-22-g
+5.23 G,5.23 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/293469/523-g,TRUE,5-23-g
+5.24 L,5.24 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/295212/524-l,TRUE,5-24-l
+5.25 L,5.25 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/296185/525-l,TRUE,5-25-l
+5.26 L,5.26 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/296938/526-l,TRUE,5-26-l
+5.27,5.27,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/297955/527,TRUE,5-27
+5.28,5.28,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/298778/528,TRUE,5-28
+5.29,5.29,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/299718/529,TRUE,5-29
+5.30 G,5.30 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/300451/530-g,TRUE,5-30-g
+5.31 G,5.31 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/301470/531-g,TRUE,5-31-g
+5.32 G,5.32 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/302227/532-g,TRUE,5-32-g
+5.33 B,5.33 B,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/303468/533-b,TRUE,5-33-b
+Interlude – Blackmage,Interlude – Blackmage,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/304375/interlude-blackmage,TRUE,interlude-blackmage
+5.34,5.34,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/304376/534,TRUE,5-34
+5.35 H,5.35 H,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/305493/535-h,TRUE,5-35-h
+5.36,5.36,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/306383/536,TRUE,5-36
+5.37 G,5.37 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/307494/537-g,TRUE,5-37-g
+5.38,5.38,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/308283/538,TRUE,5-38
+5.39,5.39,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/309301/539,TRUE,5-39
+5.40,5.40,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/310173/540,TRUE,5-40
+5.41,5.41,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/311328/541,TRUE,5-41
+5.42,5.42,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/312216/542,TRUE,5-42
+5.43,5.43,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/313361/543,TRUE,5-43
+Interlude – Niers,Interlude – Niers,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/313362/interlude-niers,TRUE,interlude-niers
+5.44,5.44,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/314325/544,TRUE,5-44
+5.45,5.45,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/315424/545,TRUE,5-45
+5.46,5.46,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/316223/546,TRUE,5-46
+5.47 G,5.47 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/317477/547-g,TRUE,5-47-g
+5.48 G,5.48 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/318340/548-g,TRUE,5-48-g
+5.49,5.49,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/319482/549,TRUE,5-49
+5.50 G,5.50 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/320223/550-g,TRUE,5-50-g
+Interlude – Bird,Interlude – Bird,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/320224/interlude-bird,TRUE,interlude-bird
+5.51 G,5.51 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/323762/551-g,TRUE,5-51-g
+5.52,5.52,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/324628/552,TRUE,5-52
+5.53,5.53,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/325993/553,TRUE,5-53
+5.54 (Non-Canon),5.54 (Non-Canon),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/326987/554-non-canon,TRUE,5-54
+5.54,5.54,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/328454/554,TRUE,5-54-2
+Interlude – Krshia,Interlude – Krshia,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/329323/interlude-krshia,TRUE,interlude-krshia
+5.55 G,5.55 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/330477/555-g,TRUE,5-55-g
+5.56 G,5.56 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/331394/556-g,TRUE,5-56-g
+5.57,5.57,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/332622/557,TRUE,5-57
+5.58,5.58,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/333467/558,TRUE,5-58
+5.59,5.59,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/334555/559,TRUE,5-59
+5.60,5.60,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/335631/560,TRUE,5-60
+Interlude – Pebblesnatch and Garry,Interlude – Pebblesnatch and Garry,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/335630/interlude-pebblesnatch-and-garry,TRUE,interlude-pebblesnatch-and-garry
+5.61,5.61,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/336910/561,TRUE,5-61
+5.62,5.62,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/339138/562,TRUE,5-62
+Interlude,Interlude,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/340125/interlude,TRUE,interlude-5
+6.00,6.00,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/345917/600,TRUE,6-00
+6.01,6.01,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/346888/601,TRUE,6-01
+6.02,6.02,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/348145/602,TRUE,6-02
+6.03,6.03,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/349126/603,TRUE,6-03
+6.04 D,6.04 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/350156/604-d,TRUE,6-04-d
+6.05 D,6.05 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/351147/605-d,TRUE,6-05-d
+6.06 D,6.06 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/352388/606-d,TRUE,6-06-d
+6.07 D,6.07 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/353228/607-d,TRUE,6-07-d
+6.08,6.08,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/354452/608,TRUE,6-08
+6.09,6.09,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/355391/609,TRUE,6-09
+6.10,6.10,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/356649/610,TRUE,6-10
+6.11,6.11,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/357607/611,TRUE,6-11
+6.12 K,6.12 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/358772/612-k,TRUE,6-12-k
+6.13 K,6.13 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/359634/613-k,TRUE,6-13-k
+6.14 K,6.14 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/360979/614-k,TRUE,6-14-k
+6.15 K,6.15 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/361858/615-k,TRUE,6-15-k
+6.16,6.16,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/363173/616,TRUE,6-16
+6.17 S,6.17 S,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/364226/617-s,TRUE,6-17-s
+6.18 H,6.18 H,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/365534/618-h,TRUE,6-18-h
+6.19 H,6.19 H,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/366602/619-h,TRUE,6-19-h
+6.20 D,6.20 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/367825/620-d,TRUE,6-20-d
+6.21 D,6.21 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/368616/621-d,TRUE,5-21-d
+6.22 D,6.22 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/369997/622-d,TRUE,6-22-d
+6.23 D,6.23 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/371038/623-d,TRUE,6-23-d
+6.24 D,6.24 D,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/372497/624-d,TRUE,6-24-d
+6.25,6.25,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/373535/625,TRUE,6-25
+6.26,6.26,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/374711/626,TRUE,6-26
+6.27 M,6.27 M,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/375699/627-m,TRUE,6-27-m
+6.28,6.28,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/376989/628,TRUE,6-28
+6.29,6.29,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/377956/629,TRUE,6-29
+Interlude – Embria,Interlude – Embria,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/378984/interlude-embria,TRUE,interlude-embria
+6.30,6.30,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/382490/630,TRUE,6-30
+6.31,6.31,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/383960/631,TRUE,6-31
+6.32,6.32,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/384972/632,TRUE,6-32
+6.33 E,6.33 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/386158/633-e,TRUE,6-33-e
+6.34 E,6.34 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/387097/634-e,TRUE,6-34-e
+Interlude – Numbtongue (Pt.1),Interlude – Numbtongue (Pt.1),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/388434/interlude-numbtongue-pt1,TRUE,interlude-numbtongue-pt-1
+Interlude – Numbtongue (Pt.2),Interlude – Numbtongue (Pt.2),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/389297/interlude-numbtongue-pt2,TRUE,interlude-numbtongue-pt-2
+6.35,6.35,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/390810/635,TRUE,6-35
+6.36 E,6.36 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/391795/636-e,TRUE,6-36-e
+6.37 E,6.37 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/393423/637-e,TRUE,6-37-e
+6.38,6.38,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/394397/638,TRUE,6-38
+6.39,6.39,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/395834/639,TRUE,6-39
+6.40 E,6.40 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/396684/640-e,TRUE,6-40-e
+6.41 E,6.41 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/397906/641-e,TRUE,6-41-e
+Interlude – Two Rats,Interlude – Two Rats,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/398635/interlude-two-rats,TRUE,interlude-two-rats
+Interlude – Rufelt,Interlude – Rufelt,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/400027/interlude-rufelt,TRUE,interlude-rufelt
+6.42 E,6.42 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/401244/642-e,TRUE,6-42-e
+6.43 E,6.43 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/402468/643-e,TRUE,6-43-e
+6.44 E,6.44 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/403409/644-e,TRUE,6-44-e
+6.45 E,6.45 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/404608/645-e,TRUE,6-45-e
+6.46 E,6.46 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/406724/646-e,TRUE,6-46-e
+6.47 E,6.47 E,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/407904/647-e,TRUE,6-47-e
+6.48 T,6.48 T,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/413523/648-t,TRUE,6-48-t
+6.49,6.49,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/414661/649,TRUE,6-49
+6.50 I,6.50 I,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/415542/650-i,TRUE,6-50-i
+6.51 A,6.51 A,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/416950/651-a,TRUE,6-51-a
+6.52 K,6.52 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/417803/652-k,TRUE,6-52-k
+6.53 K,6.53 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/419355/653-k,TRUE,6-53-k
+6.54 K,6.54 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/420464/654-k,TRUE,6-54-k
+6.55 K,6.55 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/421960/655-k,TRUE,6-55-k
+Interlude – The Titan’s Question,Interlude – The Titan’s Question,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/422942/interlude-the-titans-question,TRUE,interlude-the-titans-question
+6.56,6.56,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/424374/656,TRUE,6-56
+6.57,6.57,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/425381/657,TRUE,6-57
+6.58,6.58,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/426896/658,TRUE,6-58
+6.59,6.59,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/428058/659,TRUE,6-59
+6.60,6.60,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/429622/660,TRUE,6-60
+Interlude – Talia,Interlude – Talia,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/430772/interlude-talia,TRUE,interlude-talia
+6.61 L,6.61 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/432343/661-l,TRUE,6-61-l
+6.62 L,6.62 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/433453/662-l,TRUE,6-62-l
+Interlude – Foliana,Interlude – Foliana,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/434900/interlude-foliana,TRUE,interlude-foliana
+6.63 P,6.63 P,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/435846/663-p,TRUE,6-63-p
+6.64,6.64,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/437190/664,TRUE,6-64
+6.65,6.65,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/438146/665,TRUE,6-65
+6.66 H,6.66 H,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/438317/666-h,TRUE,6-66-h
+6.67,6.67,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/440490/667,TRUE,6-67
+6.68,6.68,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/441670/668,TRUE,6-68
+7.00,7.00,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/448265/700,TRUE,7-00
+7.01,7.01,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/449850/701,TRUE,7-01
+7.02,7.02,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/450852/702,TRUE,7-02
+7.03,7.03,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/452387/703,TRUE,7-03
+Mini Chapter #1,Mini Stories – Crabs and Drinks,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/452389/mini-stories-crabs-and-drinks,FALSE,mini-stories-crabs-and-drinks
+7.04,7.04,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/453178/704,TRUE,7-04
+Interlude – Queens and Dragons,Interlude – Queens and Dragons,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/455142/interlude-queens-and-dragons,TRUE,interlude-queens-and-dragons
+7.05 P,7.05 P,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/456330/705-p,TRUE,7-05-p
+7.06,7.06,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/457750/706,TRUE,7-06
+7.07,7.07,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/458852/707,TRUE,7-07
+7.08 K,7.08 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/460279/708-k,TRUE,7-08-k
+7.09 K,7.09 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/461537/709-k,TRUE,7-09-k
+7.10 K,7.10 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/463184/710-k,TRUE,7-10-k
+7.11,7.11,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/464051/711,TRUE,7-11
+Interlude – Dancing and Brawling,Interlude – Dancing and Brawling,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/464354/interlude-dancing-and-brawling,TRUE,interlude-dancing-and-brawling
+Interlude – Chocolate Gold,Interlude – Chocolate Gold,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/464777/interlude-chocolate-gold,TRUE,interlude-chocolate-gold
+Interlude – Chess and Ships,Interlude – Chess and Ships,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/465151/interlude-chess-and-ships,TRUE,interlude-chess-and-ships
+Interlude – Chocolate Alchemy,Interlude – Chocolate Alchemy,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/465547/interlude-chocolate-alchemy,TRUE,interlude-chocolate-alchemy
+Interlude – Lifting Ants,Interlude – Lifting Ants,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/465902/interlude-lifting-ants,TRUE,interlude-lifting-ants
+Interlude – Burning Alcohol,Interlude – Burning Alcohol,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/466170/interlude-burning-alcohol,TRUE,interlude-burning-alcohol
+Interlude – The Hangover After,Interlude – The Hangover After,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/468461/interlude-the-hangover-after,TRUE,interlude-the-hangover-after
+7.12 G,7.12 G,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/469503/712-g,TRUE,7-12-g
+7.13 K,7.13 K,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/471070/713-k,TRUE,7-13-k
+Mating Rituals Pt.2,Mating Rituals Pt.2,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/472057/mating-rituals-pt2,TRUE,mating-rituals-pt-2
+7.14 T,7.14 T,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/474277/714-t,TRUE,7-14-t
+7.15 R,7.15 R,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/475517/715-r,TRUE,7-15-r
+7.16 L,7.16 L,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/477484/716-l,TRUE,7-16-l
+7.17 S,7.17 S,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/484424/717-s,TRUE,7-17-s
+7.18 M,7.18 M,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/485802/718-m,TRUE,7-18-m
+Interlude – Strategists at Sea (Pt. 1),Interlude – Strategists at Sea (Pt. 1),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/487748/interlude-strategists-at-sea-pt-1,TRUE,interlude-strategists-at-sea-pt-1
+Interlude – Strategists at Sea (Pt. 2),Interlude – Strategists at Sea (Pt. 2),https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/489231/interlude-strategists-at-sea-pt-2,TRUE,interlude-strategists-at-sea-pt-2
+7.19,7.19,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/491048/719,TRUE,7-19
+7.20,7.20,https://www.royalroad.com/fiction/10073/the-wandering-inn/chapter/492530/720,TRUE,7-20
