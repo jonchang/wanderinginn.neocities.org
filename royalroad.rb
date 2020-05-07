@@ -20,12 +20,12 @@ data.each do |row|
   }
 end
 
-royal_road_mapping = CSV.read("royalroad.csv", headers: true, header_converters: :symbol, col_sep: "\t")
+royal_road_mapping = CSV.read("royalroad.csv", headers: true, header_converters: :symbol)
 
 df_rr = {}
 
 royal_road_mapping.each do |row|
-  df_rr[row[:royal_road_title]] = row[:slug]
+  df_rr[row[:url]] = row[:slug]
 end
 
 doc = URI.open("https://www.royalroad.com/fiction/10073/the-wandering-inn") { |f| Nokogiri::HTML(f) }
@@ -41,13 +41,13 @@ def wp_path(url)
   url.gsub("https://wanderinginn.com/", "")[%r{\d{4}/\d{2}/\d{2}}]
 end
 
-Parallel.each(chapters.zip(times), in_processes: 4, progress: "Downloading") do |chap, time|
+Parallel.each(chapters.zip(times), in_processes: 8, progress: "Downloading") do |chap, time|
   title = chap.text.strip
-  slug = df_rr[title]
   url = "https://www.royalroad.com" + chap.attr("href")
+  slug = df_rr[url]
   timestamp = DateTime.parse(time.attr("title"))
   df[slug][:royal_road_time] = timestamp
-  df[slug][:royal_road_url] = url
+  df[slug][:royal_road_title] = url
   path = "websites/royalroad.com/#{to_archive_timestamp(timestamp)}/#{slug}/"
   FileUtils.mkdir_p path
   open(path + "index.html", "wb") do |f|
