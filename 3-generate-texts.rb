@@ -18,7 +18,7 @@ Parallel.each(files, in_processes: 4, progress: 'Parsing') do |f|
     txt = Readability::Document.new(src).content
     next if txt =~ /This post is password protected/
     txt.gsub! %r{(?:</?div>|</p>|(?:Next|Previous) Chapter)}, ""
-    txt.gsub! /(?:<p>|\R)/, "\n"
+    txt.gsub! /(?:<p>|\R)/, "\n\n"
     txt.gsub! "\u00A0", " "
     txt.gsub! /[ \t]+\n/, "\n"
     txt.gsub! /\n{3,}/, "\n\n"
