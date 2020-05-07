@@ -7,7 +7,6 @@ require 'csv'
 data = CSV.read("data.csv", headers: true, header_converters: :symbol)
 
 data = data.sort { |a, b| a[0] <=> b[0] }
-data = data.uniq { |c| c[:post_date] }
 
 erb_file = "index.html.erb"
 html_file = "_site/" + File.basename(erb_file, ".erb") #=>"index.html"
