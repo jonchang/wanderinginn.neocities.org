@@ -23,7 +23,7 @@ doc = URI.open("https://wanderinginn.com/table-of-contents/") { |f| Nokogiri::HT
 doc.remove_namespaces!
 entry = doc.css(".entry-content").first
 title_map = entry.css("a").map do |url|
-  [url["href"].gsub(%r{/+$}, ""), url.text]
+  [url["href"].gsub(%r{/+$}, ""), url.text.strip]
 end.to_h
 
 doc = URI.open("https://wanderinginn.com/sitemap.xml") { |f| Nokogiri::XML(f) }
