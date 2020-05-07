@@ -1,0 +1,419 @@
+wordpress_title	royal_road_title	test	slug
+1.00	1.00	TRUE	1-00
+1.01	1.01	TRUE	1-01
+1.02	1.02	TRUE	1-02
+1.03	1.03	TRUE	1-03
+1.04	1.04	TRUE	1-04
+1.05	1.05	TRUE	1-05
+1.06	1.06	TRUE	1-06
+1.07	1.07	TRUE	1-07
+1.08	1.08	TRUE	1-08
+1.09	1.09	TRUE	1-09
+1.10	1.10	TRUE	1-10
+1.11	1.11	TRUE	1-11
+Interlude	Interlude	TRUE	interlude
+1.12	1.12	TRUE	1-12
+1.13	1.13	TRUE	1-13
+1.14	1.14	TRUE	1-14
+1.15	1.15	TRUE	1-15
+1.16	1.16	TRUE	1-16
+1.17	1.17	TRUE	1-17
+1.18	1.18	TRUE	1-18
+1.19	1.19	TRUE	1-19
+1.20	1.20	TRUE	1-20
+Interlude – 1.00 R	Interlude - 1.00 R	FALSE	interlude-1-00-r
+1.01 R	1.01 R	TRUE	1-01-r
+1.21	1.21	TRUE	1-21
+1.22	1.22	TRUE	1-22
+1.23	1.23	TRUE	1-23
+Interlude: King Edition	Interlude - King Edition	FALSE	interlude-king-edition
+1.24	1.24	TRUE	1-24
+1.02 R	1.02 R	TRUE	1-02-r
+1.03 R	1.03 R	TRUE	1-03-r
+1.25	1.25	TRUE	1-25
+1.26	1.26	TRUE	1-26
+1.27	1.27	TRUE	1-27
+1.04 R	1.04 R	TRUE	1-04-r
+1.05 R	1.05 R	TRUE	1-05-r
+1.28	1.28	TRUE	1-28
+1.06 R	1.06 R	TRUE	1-06-r
+1.29	1.29	TRUE	1-29
+1.30	1.30	TRUE	1-30
+1.31	1.31	TRUE	1-31
+1.07 R	1.07 R	TRUE	1-07-r
+1.08 R	1.08 R	TRUE	1-08-r
+1.32	1.32	TRUE	1-32
+1.33	1.33	TRUE	1-33
+1.09 R	1.09 R	TRUE	1-09-r
+1.10 R	1.10 R	TRUE	1-10-r
+1.34	1.34	TRUE	1-34
+1.35	1.35	TRUE	1-35
+1.11 R	1.11 R	TRUE	1-11-r
+1.12 R	1.12 R	TRUE	1-12-r
+1.36	1.36	TRUE	1-36
+1.37	1.37	TRUE	1-37
+1.38	1.38	TRUE	1-38
+1.39	1.39	TRUE	1-39
+1.40	1.40	TRUE	1-40
+1.13 R	1.13 R	TRUE	1-13-r
+1.41	1.41	TRUE	1-41
+1.00 H	1.00 H	TRUE	1-00-h
+1.01 H	1.01 H	TRUE	1-01-h
+1.02 H	1.02 H	TRUE	1-02-h
+1.42	1.42	TRUE	1-42
+1.43	1.43	TRUE	1-43
+1.44	1.44	TRUE	1-44
+1.45	1.45	TRUE	1-45
+Interlude	Interlude	TRUE	interlude-2
+2.00	2.01	FALSE	2-01
+2.01	2.02	FALSE	2-02
+2.02	2.03	FALSE	2-03
+2.03	2.04	FALSE	2-04
+2.04	2.05	FALSE	2-05
+2.05	2.06	FALSE	2-06
+2.06	2.07	FALSE	2-07
+2.07	2.08	FALSE	2-08
+2.08	2.09	FALSE	2-09
+2.10 T	2.10	FALSE	2-00-t
+2.09	2.00 T	FALSE	2-10
+2.11	2.11	TRUE	2-11
+2.12	2.12	TRUE	2-12
+2.13	2.13	TRUE	2-13
+2.14 G	2.00 G	FALSE	2-00-g
+S01 – Mating Rituals	S01 - Mating Rituals	FALSE	side-story-mating-rituals
+2.15	2.14	FALSE	2-14
+2.16	2.15	FALSE	2-15
+2.17	2.16	FALSE	2-16
+1.00 C	1.00 C	TRUE	1-00-c
+2.18	2.17	FALSE	2-17
+1.01 C	1.01 C	TRUE	1-01-c
+2.19 G	2.01 G	FALSE	2-01-g
+2.20	2.18	FALSE	2-18
+2.21	2.19	FALSE	2-19
+2.22 K	2.00 K	FALSE	2-00-k
+2.23	2.20	FALSE	2-20
+2.24 T	2.01 T	FALSE	2-01-t
+2.25	2.21	FALSE	2-21
+2.26	2.22	FALSE	2-22
+2.27 G	2.02 G	FALSE	2-02-g
+2.28	2.23	FALSE	2-23
+2.29	2.24	FALSE	2-24
+2.30	2.25	FALSE	2-25
+S02 – The Antinium Wars (Pt.1)	S02 – The Antinium Wars (Pt.1)	TRUE	s02-the-antinium-wars-pt-1
+2.31	2.26	FALSE	2-26
+S02 – The Antinium Wars (Pt.2)	S02 – The Antinium Wars (Pt.2)	TRUE	s02-the-antinium-wars-pt-2
+2.32 H	2.00 H	FALSE	2-00-h
+2.33	2.27	FALSE	2-27
+2.34	2.28	FALSE	2-28
+2.35	2.29	FALSE	2-29
+2.36 G	2.03 G	FALSE	2-03-g
+2.37	2.30	FALSE	2-30
+2.38	2.31	FALSE	2-31
+Interlude	Interlude	TRUE	interlude-3
+2.39	2.32	FALSE	2-32
+S03 – Wistram Days (Pt. 1)	S03 – Wistram Days (Pt. 1)	TRUE	s03-wistram-days-pt-1
+2.40	2.33	FALSE	2-33
+2.41	2.34	FALSE	2-34
+2.42	2.35	FALSE	2-35
+2.43	2.36	FALSE	2-36
+1.00 D	1.00 D	TRUE	1-00-d
+1.01 D	1.01 D	TRUE	1-01-d
+2.44	2.37	FALSE	2-37
+2.45	2.38	FALSE	2-38
+2.46	2.39	FALSE	2-39
+2.47	2.40	FALSE	2-40
+2.48	2.41	FALSE	2-41
+3.00 E	3.00 E	TRUE	3-00-e
+3.01 E	3.01 E	TRUE	3-01-e
+3.02 H	3.02 H	TRUE	3-02-h
+3.03	3.03	TRUE	3-03
+3.04	3.04	TRUE	3-04
+3.05 L	3.05 L	TRUE	3-05-l
+3.06 L	3.06 L	TRUE	3-06-l
+3.07 H	3.07 H	TRUE	3-07-h
+3.08 H	3.08 H	TRUE	3-08-h
+S03 – Wistram Days (Pt. 2)	S03 – Wistram Days (Pt. 2)	TRUE	s03-wistram-days-pt-2
+3.09	3.09	TRUE	3-09
+3.10	3.10	TRUE	3-10
+3.11 E	3.11 E	TRUE	3-11-e
+3.12 E	3.12 E	TRUE	3-12-e
+3.13	3.13	TRUE	3-13
+3.14	3.14	TRUE	3-14
+3.15	3.15	TRUE	3-15
+3.16	3.16	TRUE	3-16
+3.17 T	3.17 T	TRUE	3-17-t
+3.18 T	3.18 T	TRUE	3-18-t
+3.19 T	3.19 T	TRUE	3-19-t
+3.20 T	3.20 T	TRUE	3-20-t
+3.21 L	3.21 L	TRUE	3-21-l
+3.22 L	3.22 L	TRUE	3-22-l
+3.23 L	3.23 L	TRUE	3-23-l
+3.24	3.24	TRUE	3-24
+3.25	3.25	TRUE	3-25
+3.26 G	3.26 G	TRUE	3-26-g
+3.27 M	3.27 M	TRUE	3-27-m
+3.28 G	3.28 G	TRUE	3-28-g
+3.29 G	3.29 G	TRUE	3-29-g
+3.30	3.30	TRUE	3-30
+3.31 G	3.31 G	TRUE	3-31-g
+S03 – Wistram Days (Pt. 3)	Wistram Days (Pt. 3)	FALSE	wistram-days-pt-3
+S03 – Wistram Days (Pt. 4)	Wistram Days (Pt. 4)	FALSE	wistram-days-pt-4
+S03 – Wistram Days (Pt. 5)	Wistram Days (Pt. 5)	FALSE	wistram-days-pt-5
+S03 – Wistram Days (Pt. 6)	Wistram Days (Pt. 6)	FALSE	wistram-days-pt-6
+S03 – Wistram Days (Pt. 7)	Wistram Days (Pt. 7)	FALSE	wistram-days-pt-7
+3.32	3.32	TRUE	3-32
+3.33	3.33	TRUE	3-33
+3.34	3.34	TRUE	3-34
+3.35	3.35	TRUE	3-35
+3.36	3.36	TRUE	3-36
+3.37	3.37	TRUE	3-37
+3.38	3.38	TRUE	3-38
+3.39	3.39	TRUE	3-39
+3.40	3.40	TRUE	3-40
+3.41	3.41	TRUE	3-41
+3.42	3.42	TRUE	3-42
+Interlude	Interlude	TRUE	interlude-4
+4.00 K	4.00 K	TRUE	4-00-k
+4.01 K	4.01 K	TRUE	4-01-k
+4.02 K	4.02 K	TRUE	4-02-k
+4.03 K	4.03 K	TRUE	4-03-k
+4.04 K	4.04 K	TRUE	4-04-k
+4.05 K	4.05 K	TRUE	4-05-k
+4.06 KM	4.06 KM	TRUE	4-06-km
+4.07	4.07	TRUE	4-07
+4.08 T	4.08 T	TRUE	4-08-t
+4.09	4.09	TRUE	4-09
+4.10	4.10	TRUE	4-10
+4.11	4.11	TRUE	4-11
+4.12	4.12	TRUE	4-12
+4.13 L	4.13 L	TRUE	4-13-l
+4.14 L	4.14 L	TRUE	4-14-l
+4.15 L	4.15 L	TRUE	4-15-l
+4.16	4.16	TRUE	4-16
+4.17	4.17	TRUE	4-17
+1.02 D	1.02 D	TRUE	1-02-d
+1.03 D	1.03 D	TRUE	1-03-d
+1.04 D	1.04 D	TRUE	1-04-d
+1.05 D	1.05 D	TRUE	1-05-d
+1.06 D	1.06 D	TRUE	1-06-d
+4.18	4.18	TRUE	4-18
+4.19	4.19	TRUE	4-19
+4.20 E	4.20 E	TRUE	4-20-e
+4.21 E	4.21 E	TRUE	4-21-e
+4.22 E	4.22 E	TRUE	4-22-e
+4.23 E	4.23 E	TRUE	4-23-e
+4.24	4.24	TRUE	4-24
+4.25 N	4.25 N	TRUE	4-25-n
+4.26 M	4.26 M	TRUE	4-26-m
+4.27 H	4.27 H	TRUE	4-27-h
+4.28	4.28	TRUE	4-28
+4.29	4.29	TRUE	4-29
+4.30	4.30	TRUE	4-30
+4.31	4.31	TRUE	4-31
+4.32 G	4.32 G	TRUE	4-32-g
+1.02 C	1.02 C	TRUE	1-02-d-2
+1.03 C	1.03 C	TRUE	1-03-d-2
+1.04 C	1.04 C	TRUE	1-04-c
+1.05 C	1.05 C	TRUE	1-05-c
+4.33	4.33	TRUE	4-33
+4.34	4.34	TRUE	4-34
+4.35 E	4.35 E	TRUE	4-35-e
+4.36 O	4.36 O	TRUE	4-36-o
+4.37 O	4.37 O	TRUE	4-37-o
+4.38 B	4.38 B	TRUE	4-38-n
+4.39 G	4.39 G	TRUE	4-39-g
+4.40 L	4.40 L	TRUE	4-40-l
+4.41 L	4.41 L	TRUE	4-41-l
+4.42 L	4.42 L	TRUE	4-42-l
+4.43	4.43	TRUE	4-43
+4.44 M	4.44 M	TRUE	4-44-m
+4.45	4.45	TRUE	4-45
+4.46	4.46	TRUE	4-46
+4.47	4.47	TRUE	4-47
+S02 – The Antinium Wars (Pt.3)	S02 – The Antinium Wars (Pt.3)	TRUE	s02-the-antinium-wars-pt-3
+S02 – The Antinium Wars (Pt.4)	S02 – The Antinium Wars (Pt.4)	TRUE	s02-the-antinium-wars-pt-4
+S02 – The Antinium Wars (Pt.5)	S02 – The Antinium Wars (Pt.5)	TRUE	s02-the-antinium-wars-pt-5
+4.48	4.48	TRUE	4-48
+4.49	4.49	TRUE	4-49
+The Depthless Doctor	The Depthless Doctor	TRUE	the-depthless-doctor
+5.00	5.00	TRUE	5-00
+5.01	5.01	TRUE	5-01
+5.02	5.02	TRUE	5-02
+5.03	5.03	TRUE	5-03
+5.04	5.04	TRUE	5-04
+5.05	5.05	TRUE	5-05
+5.06 M	5.06 M	TRUE	5-06-m
+5.07	5.07	TRUE	5-07
+5.08	5.08	TRUE	5-08
+Interlude – Flos	Interlude – Flos	TRUE	interlude-flos
+5.09 E	5.09 E	TRUE	5-09-e
+5.10 E	5.10 E	TRUE	5-10-e
+5.11 E	5.11 E	TRUE	5-11-e
+5.12	5.12	TRUE	5-12
+5.13	5.13	TRUE	5-13
+5.14	5.14	TRUE	5-14
+5.15	5.15	TRUE	5-15
+5.16 S	5.16 S	TRUE	5-16-s
+5.17 S	5.17 S	TRUE	5-17-s
+5.18 S	5.18 S	TRUE	5-18-s
+5.19 G	5.19 G	TRUE	5-19-g
+5.20 G	5.20 G	TRUE	5-20-g
+5.21 E	5.21 E	TRUE	5-21-e
+5.22 G	5.22 G	TRUE	5-22-g
+5.23 G	5.23 G	TRUE	5-23-g
+5.24 L	5.24 L	TRUE	5-24-l
+5.25 L	5.25 L	TRUE	5-25-l
+5.26 L	5.26 L	TRUE	5-26-l
+5.27	5.27	TRUE	5-27
+5.28	5.28	TRUE	5-28
+5.29	5.29	TRUE	5-29
+5.30 G	5.30 G	TRUE	5-30-g
+5.31 G	5.31 G	TRUE	5-31-g
+5.32 G	5.32 G	TRUE	5-32-g
+5.33 B	5.33 B	TRUE	5-33-b
+Interlude – Blackmage	Interlude – Blackmage	TRUE	interlude-blackmage
+5.34	5.34	TRUE	5-34
+5.35 H	5.35 H	TRUE	5-35-h
+5.36	5.36	TRUE	5-36
+5.37 G	5.37 G	TRUE	5-37-g
+5.38	5.38	TRUE	5-38
+5.39	5.39	TRUE	5-39
+5.40	5.40	TRUE	5-40
+5.41	5.41	TRUE	5-41
+5.42	5.42	TRUE	5-42
+5.43	5.43	TRUE	5-43
+Interlude – Niers	Interlude – Niers	TRUE	interlude-niers
+5.44	5.44	TRUE	5-44
+5.45	5.45	TRUE	5-45
+5.46	5.46	TRUE	5-46
+5.47 G	5.47 G	TRUE	5-47-g
+5.48 G	5.48 G	TRUE	5-48-g
+5.49	5.49	TRUE	5-49
+5.50 G	5.50 G	TRUE	5-50-g
+Interlude – Bird	Interlude – Bird	TRUE	interlude-bird
+5.51 G	5.51 G	TRUE	5-51-g
+5.52	5.52	TRUE	5-52
+5.53	5.53	TRUE	5-53
+5.54 (Non-Canon)	5.54 (Non-Canon)	TRUE	5-54
+5.54	5.54	TRUE	5-54-2
+Interlude – Krshia	Interlude – Krshia	TRUE	interlude-krshia
+5.55 G	5.55 G	TRUE	5-55-g
+5.56 G	5.56 G	TRUE	5-56-g
+5.57	5.57	TRUE	5-57
+5.58	5.58	TRUE	5-58
+5.59	5.59	TRUE	5-59
+5.60	5.60	TRUE	5-60
+Interlude – Pebblesnatch and Garry	Interlude – Pebblesnatch and Garry	TRUE	interlude-pebblesnatch-and-garry
+5.61	5.61	TRUE	5-61
+5.62	5.62	TRUE	5-62
+Interlude	Interlude	TRUE	interlude-5
+6.00	6.00	TRUE	6-00
+6.01	6.01	TRUE	6-01
+6.02	6.02	TRUE	6-02
+6.03	6.03	TRUE	6-03
+6.04 D	6.04 D	TRUE	6-04-d
+6.05 D	6.05 D	TRUE	6-05-d
+6.06 D	6.06 D	TRUE	6-06-d
+6.07 D	6.07 D	TRUE	6-07-d
+6.08	6.08	TRUE	6-08
+6.09	6.09	TRUE	6-09
+6.10	6.10	TRUE	6-10
+6.11	6.11	TRUE	6-11
+6.12 K	6.12 K	TRUE	6-12-k
+6.13 K	6.13 K	TRUE	6-13-k
+6.14 K	6.14 K	TRUE	6-14-k
+6.15 K	6.15 K	TRUE	6-15-k
+6.16	6.16	TRUE	6-16
+6.17 S	6.17 S	TRUE	6-17-s
+6.18 H	6.18 H	TRUE	6-18-h
+6.19 H	6.19 H	TRUE	6-19-h
+6.20 D	6.20 D	TRUE	6-20-d
+6.21 D	6.21 D	TRUE	5-21-d
+6.22 D	6.22 D	TRUE	6-22-d
+6.23 D	6.23 D	TRUE	6-23-d
+6.24 D	6.24 D	TRUE	6-24-d
+6.25	6.25	TRUE	6-25
+6.26	6.26	TRUE	6-26
+6.27 M	6.27 M	TRUE	6-27-m
+6.28	6.28	TRUE	6-28
+6.29	6.29	TRUE	6-29
+Interlude – Embria	Interlude – Embria	TRUE	interlude-embria
+6.30	6.30	TRUE	6-30
+6.31	6.31	TRUE	6-31
+6.32	6.32	TRUE	6-32
+6.33 E	6.33 E	TRUE	6-33-e
+6.34 E	6.34 E	TRUE	6-34-e
+Interlude – Numbtongue (Pt.1)	Interlude – Numbtongue (Pt.1)	TRUE	interlude-numbtongue-pt-1
+Interlude – Numbtongue (Pt.2)	Interlude – Numbtongue (Pt.2)	TRUE	interlude-numbtongue-pt-2
+6.35	6.35	TRUE	6-35
+6.36 E	6.36 E	TRUE	6-36-e
+6.37 E	6.37 E	TRUE	6-37-e
+6.38	6.38	TRUE	6-38
+6.39	6.39	TRUE	6-39
+6.40 E	6.40 E	TRUE	6-40-e
+6.41 E	6.41 E	TRUE	6-41-e
+Interlude – Two Rats	Interlude – Two Rats	TRUE	interlude-two-rats
+Interlude – Rufelt	Interlude – Rufelt	TRUE	interlude-rufelt
+6.42 E	6.42 E	TRUE	6-42-e
+6.43 E	6.43 E	TRUE	6-43-e
+6.44 E	6.44 E	TRUE	6-44-e
+6.45 E	6.45 E	TRUE	6-45-e
+6.46 E	6.46 E	TRUE	6-46-e
+6.47 E	6.47 E	TRUE	6-47-e
+6.48 T	6.48 T	TRUE	6-48-t
+6.49	6.49	TRUE	6-49
+6.50 I	6.50 I	TRUE	6-50-i
+6.51 A	6.51 A	TRUE	6-51-a
+6.52 K	6.52 K	TRUE	6-52-k
+6.53 K	6.53 K	TRUE	6-53-k
+6.54 K	6.54 K	TRUE	6-54-k
+6.55 K	6.55 K	TRUE	6-55-k
+Interlude – The Titan’s Question	Interlude – The Titan’s Question	TRUE	interlude-the-titans-question
+6.56	6.56	TRUE	6-56
+6.57	6.57	TRUE	6-57
+6.58	6.58	TRUE	6-58
+6.59	6.59	TRUE	6-59
+6.60	6.60	TRUE	6-60
+Interlude – Talia	Interlude – Talia	TRUE	interlude-talia
+6.61 L	6.61 L	TRUE	6-61-l
+6.62 L	6.62 L	TRUE	6-62-l
+Interlude – Foliana	Interlude – Foliana	TRUE	interlude-foliana
+6.63 P	6.63 P	TRUE	6-63-p
+6.64	6.64	TRUE	6-64
+6.65	6.65	TRUE	6-65
+6.66 H	6.66 H	TRUE	6-66-h
+6.67	6.67	TRUE	6-67
+6.68	6.68	TRUE	6-68
+7.00	7.00	TRUE	7-00
+7.01	7.01	TRUE	7-01
+7.02	7.02	TRUE	7-02
+7.03	7.03	TRUE	7-03
+Mini Chapter #1	Mini Stories – Crabs and Drinks	FALSE	mini-stories-crabs-and-drinks
+7.04	7.04	TRUE	7-04
+Interlude – Queens and Dragons	Interlude – Queens and Dragons	TRUE	interlude-queens-and-dragons
+7.05 P	7.05 P	TRUE	7-05-p
+7.06	7.06	TRUE	7-06
+7.07	7.07	TRUE	7-07
+7.08 K	7.08 K	TRUE	7-08-k
+7.09 K	7.09 K	TRUE	7-09-k
+7.10 K	7.10 K	TRUE	7-10-k
+7.11	7.11	TRUE	7-11
+Interlude – Dancing and Brawling	Interlude – Dancing and Brawling	TRUE	interlude-dancing-and-brawling
+Interlude – Chocolate Gold	Interlude – Chocolate Gold	TRUE	interlude-chocolate-gold
+Interlude – Chess and Ships	Interlude – Chess and Ships	TRUE	interlude-chess-and-ships
+Interlude – Chocolate Alchemy	Interlude – Chocolate Alchemy	TRUE	interlude-chocolate-alchemy
+Interlude – Lifting Ants	Interlude – Lifting Ants	TRUE	interlude-lifting-ants
+Interlude – Burning Alcohol	Interlude – Burning Alcohol	TRUE	interlude-burning-alcohol
+Interlude – The Hangover After	Interlude – The Hangover After	TRUE	interlude-the-hangover-after
+7.12 G	7.12 G	TRUE	7-12-g
+7.13 K	7.13 K	TRUE	7-13-k
+Mating Rituals Pt.2	Mating Rituals Pt.2	TRUE	mating-rituals-pt-2
+7.14 T	7.14 T	TRUE	7-14-t
+7.15 R	7.15 R	TRUE	7-15-r
+7.16 L	7.16 L	TRUE	7-16-l
+7.17 S	7.17 S	TRUE	7-17-s
+7.18 M	7.18 M	TRUE	7-18-m
+Interlude – Strategists at Sea (Pt. 1)	Interlude – Strategists at Sea (Pt. 1)	TRUE	interlude-strategists-at-sea-pt-1
+Interlude – Strategists at Sea (Pt. 2)	Interlude – Strategists at Sea (Pt. 2)	TRUE	interlude-strategists-at-sea-pt-2
+7.19	7.19	TRUE	7-19
+7.20	7.20	TRUE	7-20
