@@ -29,7 +29,7 @@ texts: 3-generate-texts.rb websites ## Generate text files using readability
 
 diffs: _site/diffs ## Generate diffs with breakerbreaker
 
-_site/diffs: 4-breakbreak.rb texts
+_site/diffs: 4-breakbreak.rb texts data.csv diff.html.erb
 	bundle exec ruby $<
 	touch $@
 
