@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" href="diff.css"/>
+    <title>Differences in The Wandering Inn <%= title %></title>
+  </head>
+  <body>
+    <h1>Differences in The Wandering Inn <%= title %></h1>
+    <nav>
+      <ul>
+        <li><a href="<%= wp_url %>">Full chapter text</a>
+        <li><a href="<%= back_link %>">Back to differences list</a>
+      </ul>
+    </nav>
+    <main>
+      <%= diff_html %>
+    </main>
+  </body>
+</html>
