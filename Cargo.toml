@@ -1,0 +1,27 @@
+[package]
+name = "readable"
+version = "0.1.0"
+authors = ["Jonathan Chang <me@jonathanchang.org>"]
+edition = "2018"
+
+[profile.release]
+opt-level = 3
+debug = false
+debug-assertions = false
+overflow-checks = false
+lto = "thin"
+panic = 'unwind'
+incremental = false
+codegen-units = 4
+rpath = false
+
+[dependencies]
+url = "*"
+glob = "^0"
+regex = "1"
+lazy_static = "1"
+exitfailure = "~0.5"
+rayon = "1.1"
+indicatif = {version = "*", features = ["with_rayon"]}
+readability = {version = "*", default-features = false}
+dissolve = "*"
