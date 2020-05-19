@@ -23,8 +23,8 @@ websites: 2-download-site.sh data.csv ## Download the site
 	sh $<
 	touch $@
 
-texts: 3-generate-texts.rb websites ## Generate text files using readability
-	bundle exec ruby $<
+texts: src/main.rs Cargo.toml Cargo.lock websites ## Generate text files using readability
+	cargo run --release
 	touch $@
 
 diffs: _site/diffs ## Generate diffs with breakerbreaker
