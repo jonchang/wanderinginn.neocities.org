@@ -16,12 +16,12 @@ codegen-units = 16
 rpath = false
 
 [dependencies]
-url = "*"
-glob = "^0"
-regex = "1"
-lazy_static = "1"
+url = "~1"
+glob = "~0"
+regex = "~1"
+lazy_static = "~1"
 exitfailure = "~0.5"
-rayon = "1.1"
-indicatif = {version = "*", features = ["with_rayon"]}
-readability = {version = "*", default-features = false}
-dissolve = "*"
+rayon = "~1.1"
+indicatif = {version = "~0.14", features = ["with_rayon"]}
+readability = {version = "~0.1", default-features = false}
+dissolve = "~0.2"
