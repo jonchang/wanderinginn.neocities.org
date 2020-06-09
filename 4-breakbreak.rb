@@ -28,6 +28,7 @@ end
 
 # https://news.ycombinator.com/item?id=13997533
 def breakerbreaker(text)
+  text.gsub! "\u00A0", " "
   text.gsub! %r{([.,?!:;)'"–…]) }, "\\1 \n"
   text.gsub "…", "…\n"
 end
