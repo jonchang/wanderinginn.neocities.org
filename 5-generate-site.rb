@@ -55,7 +55,7 @@ def generate_html_table(dd)
   end.join
 end
 
-variables[:lastmod] = DateTime.now.strftime("%B %d, %Y")
+variables[:lastmod] = DateTime.now.strftime("%B %-d, %Y")
 variables[:html_table] = generate_html_table(data)
 
 res = ERB.new(erb_str, trim_mode: ">").result(variables.instance_eval { binding })
