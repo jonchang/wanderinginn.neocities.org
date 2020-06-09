@@ -17,15 +17,16 @@ fn fix_text(text: String) -> String {
         static ref RE1: Regex =
             Regex::new(r"Previous Chapter|Next Chapter|</?span>|</p>|</?em>").unwrap();
         static ref RE2: Regex = Regex::new(r"\n{3,}").unwrap();
+        static ref RE3: Regex = Regex::new(r"\u{A0}|&nbsp;").unwrap();
     }
     strip_html_tags(
-        &RE2.replace_all(
-            &RE1.replace_all(&text, "")
-                .replace("<p>", "\n\n")
-                .replace("\u{00A0}", " "),
-            "\n\n",
-        ),
-    )
+        &RE3.replace_all(
+            &RE2.replace_all(
+                &RE1.replace_all(&text, "")
+                .replace("<p>", "\n\n"),
+                "\n\n",
+                ), " ")
+        )
     .join("")
     .trim()
     .to_string()
