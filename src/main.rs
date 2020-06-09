@@ -22,7 +22,8 @@ fn fix_text(text: String) -> String {
         &RE2.replace_all(
             &RE1.replace_all(&text, "")
                 .replace("<p>", "\n\n")
-                .replace("\u{00A0}", " "),
+                .replace("\u{A0}", " ")
+                .replace("&nbsp;", " "),
             "\n\n",
         ),
     )
