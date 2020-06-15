@@ -22,6 +22,6 @@ regex = "~1"
 lazy_static = "~1"
 exitfailure = "~0.5"
 rayon = "~1.3"
-indicatif = {version = "~0.14", features = ["with_rayon"]}
+indicatif = {version = "~0.15", features = ["with_rayon"]}
 readability = {version = "~0.1", default-features = false}
 dissolve = "~0.2"
