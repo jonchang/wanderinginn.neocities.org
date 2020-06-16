@@ -2,7 +2,8 @@ name: Deploy site from branch
 
 on:
   push:
-    branches: [ deploy ]
+    branches:
+      - deploy
 
 jobs:
   deploy:
