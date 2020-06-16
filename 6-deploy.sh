@@ -1,16 +1,12 @@
-set -u
+#!/bin/bash
 
-: "$NEOCITIES_API_KEY"
-
-neocities push _site
-
-TERM=dumb neocities list -a | sort > /tmp/theirs.txt
-find _site | sed "s|^_site/||" | sort > /tmp/ours.txt
-comm -2 -3 /tmp/theirs.txt /tmp/ours.txt > /tmp/remove.txt
-if [ -s /tmp/remove.txt ]; then
-    wc -l /tmp/remove.txt
-    echo "Deleting files"
-    cat /tmp/remove.txt | xargs neocities delete
-fi
-
-rm /tmp/theirs.txt /tmp/ours.txt /tmp/remove.txt
+cd _site
+git init
+git config user.name 'Jonathan Chang'
+git config user.email 'jchang641@gmail.com'
+git add .
+git commit -m 'deploy'
+git remote add deploy git@github.com:jonchang/wanderinginn.neocities.org.git
+git push --force deploy master:deploy
+rm -rf .git
+cd ..
