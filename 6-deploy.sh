@@ -7,6 +7,6 @@ git config user.email 'jchang641@gmail.com'
 git add .
 git commit -m 'deploy'
 git remote add deploy git@github.com:jonchang/wanderinginn.neocities.org.git
-git push --force deploy master:deploy
+git push --force deploy master:gh-pages
 rm -rf .git
 cd ..

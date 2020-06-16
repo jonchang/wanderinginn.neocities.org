@@ -1,9 +1,7 @@
 name: Deploy site from branch
 
 on:
-  push:
-    branches:
-      - deploy
+  page_build:
 
 jobs:
   deploy:
@@ -11,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        ref: deploy
+        ref: gh-pages
         path: site
     - name: Deploy to Neocities
       if: success()
