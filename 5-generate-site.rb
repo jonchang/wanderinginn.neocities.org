@@ -63,3 +63,5 @@ res = ERB.new(erb_str, trim_mode: ">").result(variables.instance_eval { binding 
 File.open(html_file, 'w') do |f|
   f.write(res)
 end
+
+FileUtils.cp "header.png", "_site/wise_papa_sloth_corrupted_by_his_own_power_can_no_leader_go_untainted.png"
