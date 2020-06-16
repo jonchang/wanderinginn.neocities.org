@@ -1,0 +1,30 @@
+name: Deploy site from branch
+
+on:
+  push:
+    branches: [ deploy ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: deploy
+        path: site
+    - name: Deploy to Neocities
+      if: success()
+      id: neocities
+      continue-on-error: true
+      uses: bcomnes/deploy-to-neocities@v1
+      with:
+        api_token: ${{ secrets.NEOCITIES_API_KEY }}
+        dist_dir: site
+        cleanup: true
+    - name: Deploy to Neocities fallback
+      if: steps.neocities.outcome == 'failure'
+      uses: jonchang/deploy-neocities@master
+      with:
+        key: ${{ secrets.NEOCITIES_API_KEY }}
+        dir: site
+        clean: true
