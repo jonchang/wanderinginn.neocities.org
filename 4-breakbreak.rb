@@ -34,6 +34,8 @@ def breakerbreaker(text)
 end
 
 FileUtils.mkdir_p "_site/diffs"
+FileUtils.mkdir_p "_site/texts"
+
 open("_site/diffs/diff.css", "w") do |f|
   f.puts Diffy::CSS
 end
@@ -63,5 +65,9 @@ Parallel.each(texts, in_processes: 4, progress: 'Diffing') do |dir|
 
   File.open("_site/diffs/#{slug}.html", "w") do |f|
     f.write(res)
+  end
+
+  File.open("_site/texts/#{slug}.txt", "w") do |f|
+    f.write(open(bb).read)
   end
 end
