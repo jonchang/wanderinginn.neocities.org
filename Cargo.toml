@@ -16,7 +16,7 @@ codegen-units = 16
 rpath = false
 
 [dependencies]
-url = "~1"
+url = "~2"
 glob = "~0"
 regex = "~1"
 lazy_static = "~1"
