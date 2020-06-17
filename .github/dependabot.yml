@@ -4,21 +4,11 @@ updates:
   directory: "/"
   schedule:
     interval: daily
-    time: '12:00'
-    timezone: Australia/ACT
-  open-pull-requests-limit: 10
   assignees:
   - jonchang
-  ignore:
-  - dependency-name: url
-    versions:
-    - ">= 2.a, < 3"
 - package-ecosystem: bundler
   directory: "/"
   schedule:
     interval: daily
-    time: '12:00'
-    timezone: Australia/ACT
-  open-pull-requests-limit: 10
   assignees:
   - jonchang
