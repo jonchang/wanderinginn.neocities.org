@@ -51,6 +51,9 @@ Parallel.each(texts, in_processes: 4, progress: 'Diffing') do |dir|
   bb = texts.last
   slug, date_a = slug_from_fn aa
   slug, date_b = slug_from_fn bb
+  File.open("_site/texts/#{slug}.txt", "w") do |f|
+    f.write(open(bb).read)
+  end
   broke_a = breakerbreaker open(aa).read
   broke_b = breakerbreaker open(bb).read
   diff_html = Diffy::Diff.new(broke_a, broke_b, :context => 2).to_s(:html)
@@ -65,9 +68,5 @@ Parallel.each(texts, in_processes: 4, progress: 'Diffing') do |dir|
 
   File.open("_site/diffs/#{slug}.html", "w") do |f|
     f.write(res)
-  end
-
-  File.open("_site/texts/#{slug}.txt", "w") do |f|
-    f.write(open(bb).read)
   end
 end
