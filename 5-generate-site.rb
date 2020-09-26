@@ -65,3 +65,4 @@ File.open(html_file, 'w') do |f|
 end
 
 FileUtils.cp "header.png", "_site/wise_papa_sloth_corrupted_by_his_own_power_can_no_leader_go_untainted.png"
+FileUtils.cp "homebrew.html", "_site/homebrew.html"
