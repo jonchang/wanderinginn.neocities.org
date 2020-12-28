@@ -1,8 +1,9 @@
 #!/usr/bin/env ruby
 
-require "erb"
-require "ostruct"
 require 'csv'
+require 'erb'
+require 'fileutils'
+require 'ostruct'
 
 data = CSV.read("data.csv", headers: true, header_converters: :symbol)
 
