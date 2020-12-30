@@ -19,6 +19,14 @@ def slug_from_url(url)
   url[%r{[\w-]+/$}].chomp("/")
 end
 
+def guess_title(url)
+  puts "Guessing title for #{url}"
+  doc = URI.open(url) { |f| Nokogiri::HTML(f) }
+  doc.remove_namespaces!
+  title = doc.css("title").first
+  title.text.gsub("| The Wandering Inn", "").strip
+end
+
 doc = URI.open("https://wanderinginn.com/table-of-contents/") { |f| Nokogiri::HTML(f) }
 doc.remove_namespaces!
 entry = doc.css(".entry-content").first
@@ -40,7 +48,7 @@ CSV.open("data.csv", "wb") do |csv|
     post_date = date_from_url url
     next unless post_date
     diff = last_modified - post_date
-    title = title_map[url.gsub(%r{/+$}, "")]
+    title = title_map[url.gsub(%r{/+$}, "")] || guess_title(url)
     slug = slug_from_url(url)
     csv << [url, title, slug, last_modified, post_date, diff.to_i]
   end
