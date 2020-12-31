@@ -30,7 +30,7 @@ def diffstat(file, max_value: 100)
   display_width = [(([max_value, total].min).to_f / max_value * 100).floor, 1].max
 
   <<~EOSVG
-  <svg width="130" height="18" role="img">
+  <svg width="#{display_width + 35}" height="18" role="img">
   <g><rect width="#{display_width}" height="18"></rect>
      <text x="#{display_width + 4}" y="15">#{total}</text>
   </g>
