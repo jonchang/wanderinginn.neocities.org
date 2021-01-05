@@ -10,7 +10,7 @@ require 'words_counted'
 ERB_FILES = %w[index.html.erb statistics.html.erb]
 
 def generate_chapter_link(row)
-    %Q|<a name="chapter-#{row[:slug]}" href="#{row[:url]}">#{row[:title]}</a>|
+    %Q|<a href="#{row[:url]}">#{row[:title]}</a>|
 end
 
 def diffstat(file, max_value: 100)
@@ -44,7 +44,7 @@ end
 def generate_html_table(dd)
   dd.map do |row|
     <<~EOHTML
-    <tr>
+    <tr id="chapter-#{row[:slug]}">
     <td>#{generate_chapter_link row}</td>
     <td>#{generate_diff_link row}</td>
     </tr>
