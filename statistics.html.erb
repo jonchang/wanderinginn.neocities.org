@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="element">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" href="https://elementcss.neocities.org/dist/element-0.1.1.min.css">
+    <style>
+    @media (max-width: 420px) {
+       body {
+        padding: 20px !important;
+      }
+    }
+    </style>
+    <title>The Wandering Inn - Statistics</title>
+  </head>
+  <body>
+    <h1>The Wandering Inn - Statistics</h1>
+
+    <p>These data were last updated on <%= lastmod %>.</p>
+
+    <p><a href="index.html">Back to main page</a></p>
+
+    <table style="width: unset; margin-left: unset">
+      <tr>
+      <th>Chapter</th>
+      <th>Word Count</th>
+      </tr>
+  <%= statistics_table %>
+    </table>
+
+  </body>
+</html>
