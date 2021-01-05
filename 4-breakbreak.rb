@@ -59,7 +59,6 @@ erb_text = File.read("diff.html.erb")
 
 Parallel.each(texts, in_processes: 4, progress: 'Diffing') do |dir|
   texts = Dir["#{dir}*"].sort
-  next if texts.length < 2
   aa = texts.first
   bb = texts.last
   slug, date_a = slug_from_fn aa
@@ -67,6 +66,8 @@ Parallel.each(texts, in_processes: 4, progress: 'Diffing') do |dir|
   File.open("_site/texts/#{slug}.txt", "w") do |f|
     f.write(open(bb).read)
   end
+  next if texts.length < 2
+
   broke_a = breakerbreaker open(aa).read
   broke_b = breakerbreaker open(bb).read
   diff_html = Diffy::Diff.new(broke_a, broke_b, :context => 2).to_s(:html)
