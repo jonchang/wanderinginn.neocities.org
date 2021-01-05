@@ -16,6 +16,7 @@ GEM
     parallel (1.20.1)
     racc (1.5.2)
     ruby-progressbar (1.11.0)
+    words_counted (1.0.2)
 
 PLATFORMS
   ruby
@@ -26,6 +27,7 @@ DEPENDENCIES
   parallel!
   ruby-progressbar!
   wayback_machine_downloader!
+  words_counted!
 
 BUNDLED WITH
-   2.1.4
+   2.2.3

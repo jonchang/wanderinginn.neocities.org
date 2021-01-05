@@ -5,7 +5,9 @@ require 'erb'
 require 'fileutils'
 require 'ostruct'
 
-ERB_FILES = %w[index.html.erb]
+require 'words_counted'
+
+ERB_FILES = %w[index.html.erb statistics.html.erb]
 
 def generate_chapter_link(row)
     %Q|<a name="chapter-#{row[:slug]}" href="#{row[:url]}">#{row[:title]}</a>|
@@ -50,12 +52,30 @@ def generate_html_table(dd)
   end.join
 end
 
+def count_words(slug)
+  file = "_site/texts/#{slug}.txt"
+  tokens = File.open(file) do |f|
+    WordsCounted::Tokeniser.new(f.read).tokenise()
+  end
+  WordsCounted::Counter.new(tokens).token_count
+end
+
+
+def generate_statistics_table(dd)
+  dd.map do |row|
+    <<~EOHTML
+    <tr><td>#{generate_chapter_link row}</td><td>#{count_words row[:slug]}</td></tr>
+    EOHTML
+  end.join
+end
+
 data = CSV.read("data.csv", headers: true, header_converters: :symbol)
 data = data.sort { |a, b| a[0] <=> b[0] }
 
 variables = OpenStruct.new
 variables[:lastmod] = DateTime.now.strftime("%B %-d, %Y")
 variables[:html_table] = generate_html_table(data)
+variables[:statistics_table] = generate_statistics_table(data)
 
 ERB_FILES.each do |erb|
   html_file = "_site/" + File.basename(erb, ".erb") #=>"index.html"
