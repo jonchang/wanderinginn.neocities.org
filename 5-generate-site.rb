@@ -54,6 +54,8 @@ end
 
 def count_words(slug)
   file = "_site/texts/#{slug}.txt"
+  return unless File.exist? file
+
   tokens = File.open(file) do |f|
     WordsCounted::Tokeniser.new(f.read).tokenise()
   end
