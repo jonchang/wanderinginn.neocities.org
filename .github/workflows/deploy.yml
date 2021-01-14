@@ -11,6 +11,7 @@ jobs:
       with:
         ref: gh-pages
         path: site
+    - run: rm -rf site/.git
     - name: Deploy to Neocities
       if: success()
       id: neocities
