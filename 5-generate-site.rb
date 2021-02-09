@@ -63,12 +63,18 @@ def count_words(slug)
 end
 
 
+
 def generate_statistics_table(dd)
-  dd.map do |row|
+  total = 0
+  res = dd.map do |row|
+    wc = count_words(row[:slug])
+    total += wc || 0
     <<~EOHTML
-    <tr><td>#{generate_chapter_link row}</td><td>#{count_words row[:slug]}</td></tr>
+    <tr><td>#{generate_chapter_link row}</td><td>#{wc}</td></tr>
     EOHTML
-  end.join
+  end
+  res << "<tr><td>Total</td><td>#{total}</td></tr>"
+  res.join
 end
 
 data = CSV.read("data.csv", headers: true, header_converters: :symbol)
