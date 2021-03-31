@@ -62,8 +62,6 @@ def count_words(slug)
   WordsCounted::Counter.new(tokens).token_count
 end
 
-
-
 def generate_statistics_table(dd)
   total = 0
   res = dd.map do |row|
@@ -75,6 +73,23 @@ def generate_statistics_table(dd)
   end
   res << "<tr><td>Total</td><td>#{total}</td></tr>"
   res.join
+end
+
+def table_of_contents
+  <<~EOS
+    <p>
+    <ul>
+      <li><a href="#chapter-1-00">Volume 1</a></li>
+      <li><a href="#chapter-interlude-2">Volume 2</a></li>
+      <li><a href="#chapter-3-00-e">Volume 3</a></li>
+      <li><a href="#chapter-4-00-k">Volume 4</a></li>
+      <li><a href="#chapter-5-00">Volume 5</a></li>
+      <li><a href="#chapter-6-00">Volume 6</a></li>
+      <li><a href="#chapter-7-00">Volume 7</a></li>
+      <li><a href="#chapter-8-00">Volume 8</a></li>
+    </ul>
+    </p>
+  EOS
 end
 
 data = CSV.read("data.csv", headers: true, header_converters: :symbol)
