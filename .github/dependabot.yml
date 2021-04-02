@@ -6,7 +6,22 @@ updates:
     interval: daily
   assignees:
   - jonchang
+
 - package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+  assignees:
+  - jonchang
+
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: daily
+  assignees:
+  - jonchang
+
+- package-ecosystem: docker
   directory: "/"
   schedule:
     interval: daily
