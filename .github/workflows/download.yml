@@ -1,0 +1,53 @@
+name: Download and update site archive
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Days to search (unused)"
+        required: false
+        default: 10
+  schedule:
+    # At 23:59 on Tuesday and Saturday
+    - cron: "59 23 * * 2,6"
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Authenticate with GitHub Container Registry
+        run: |
+          echo -n $GITHUB_TOKEN | docker login -u jonchang --password-stdin ghcr.io
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract existing archive from Docker image
+        run: |
+          docker pull ghcr.io/jonchang/wanderinginn-archive:latest
+          docker run --name temp ghcr.io/jonchang/wanderinginn-archive:latest /bin/true
+          docker cp temp:all_text.tar.xz .
+          docker rm temp
+          tar xf all_text.tar.xz
+
+      - name: Install prerequisites
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libtext-csv-perl
+          curl pi.dk/3/ | bash
+          bundle install
+          echo $PATH
+          echo "/home/runner/bin" >> $GITHUB_PATH
+
+      - run: ./1-parse-diffs.rb
+
+      - run: ./2-download-site.sh
+
+      - run: ./3-compress-website.sh
+
+      - run: docker build . --file Dockerfile --tag ghcr.io/jonchang/wanderinginn-archive:latest
+
+      - name: Push the image
+        if: ${{ success() && github.ref == 'refs/heads/master' }}
+        run: docker push ghcr.io/jonchang/wanderinginn-archive:latest
