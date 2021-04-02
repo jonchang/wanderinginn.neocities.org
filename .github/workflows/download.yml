@@ -23,13 +23,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Extract existing archive from Docker image
-        run: |
-          docker pull ghcr.io/jonchang/wanderinginn-archive:latest
-          docker run --name temp ghcr.io/jonchang/wanderinginn-archive:latest /bin/true
-          docker cp temp:all_text.tar.xz .
-          docker rm temp
-          tar xf all_text.tar.xz
+      - run: ./0-extract-site-archive.sh
 
       - name: Install prerequisites
         run: |
