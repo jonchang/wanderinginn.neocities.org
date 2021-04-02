@@ -5,6 +5,11 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  workflow_dispatch:
+    inputs:
+      unused:
+        description: "Unused"
+        required: false
 
 jobs:
   build:
@@ -13,9 +18,46 @@ jobs:
       CARGO_TERM_COLOR: always
     steps:
     - uses: actions/checkout@v2
+
     - uses: actions/setup-ruby@v1
       with:
         ruby-version: '2.7'
-    - run: cargo build --verbose
+
     - run: bundle install
-    - run: bundle exec ruby 1-parse-diffs.rb
+
+    - name: Authenticate with GitHub Container Registry
+      run: |
+        echo -n $GITHUB_TOKEN | docker login -u jonchang --password-stdin ghcr.io
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - run: ./0-extract-site-archive.sh
+
+    - name: Download site metadata
+      run: |
+        ./1-parse-diffs.rb
+        touch data.csv
+
+    - name: Generate site
+      run: |
+        # Update timestamp so we don't redownload everything
+        touch websites
+        make site
+
+    - name: Deploy to Neocities
+      if: ${{ success() && github.ref == 'refs/heads/master' }}
+      id: neocities
+      continue-on-error: true
+      uses: bcomnes/deploy-to-neocities@v1
+      with:
+        api_token: ${{ secrets.NEOCITIES_API_KEY }}
+        dist_dir: _site
+        cleanup: true
+
+    - name: Deploy to Neocities fallback
+      if: ${{ steps.neocities.outcome == 'failure' && github.ref == 'refs/heads/master' }}
+      uses: jonchang/deploy-neocities@master
+      with:
+        key: ${{ secrets.NEOCITIES_API_KEY }}
+        dir: _site
+        clean: true
