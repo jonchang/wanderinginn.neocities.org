@@ -1,5 +1,6 @@
 /target
 _site
+all_text.tar*
 data.csv
 texts/
 websites/
