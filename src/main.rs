@@ -69,7 +69,7 @@ fn write_to_path(text: &str, slug: &str, datestamp: &str) {
 }
 
 fn main() -> Result<(), ExitFailure> {
-    let files: Vec<_> = glob("/Users/jonchang/TWI/websites/**/index.html")?
+    let files: Vec<_> = glob("websites/**/index.html")?
         .filter_map(|x| x.ok())
         .collect();
 
