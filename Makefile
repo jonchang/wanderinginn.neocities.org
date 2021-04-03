@@ -45,5 +45,6 @@ extract: 0-extract-site-archive.sh ## Download and extract the website archive (
 	sh $<
 
 compress: 3-compress-website.sh ## Compress the website archive
+	sh $<
 
-.PHONY: _site/index.html download
+.PHONY: _site/index.html download compress
