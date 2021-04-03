@@ -38,6 +38,9 @@ jobs:
 
     - run: make site
 
+    - name: Remove public full texts
+      run: rm -rf _site/texts
+
     - name: Deploy to Neocities
       if: ${{ success() && github.ref == 'refs/heads/master' }}
       id: neocities
