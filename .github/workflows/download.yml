@@ -23,7 +23,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: ./0-extract-site-archive.sh
+      - run: make extract
 
       - name: Install prerequisites
         run: |
@@ -34,11 +34,11 @@ jobs:
           echo $PATH
           echo "/home/runner/bin" >> $GITHUB_PATH
 
-      - run: ./1-parse-diffs.rb
+      - run: make metadata
 
-      - run: ./2-download-site.sh
+      - run: make download
 
-      - run: ./3-compress-website.sh
+      - run: make compress
 
       - run: docker build . --file Dockerfile --tag ghcr.io/jonchang/wanderinginn-archive:latest
 

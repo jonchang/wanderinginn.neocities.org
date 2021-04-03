@@ -32,18 +32,11 @@ jobs:
 
     - uses: Swatinem/rust-cache@v1
 
-    - run: ./0-extract-site-archive.sh
+    - run: make metadata
 
-    - name: Download site metadata
-      run: |
-        bundle exec 1-parse-diffs.rb
-        touch data.csv
+    - run: make extract
 
-    - name: Generate site
-      run: |
-        # Update timestamp so we don't redownload everything
-        touch websites
-        make site
+    - run: make site
 
     - name: Deploy to Neocities
       if: ${{ success() && github.ref == 'refs/heads/master' }}

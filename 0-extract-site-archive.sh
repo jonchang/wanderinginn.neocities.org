@@ -8,3 +8,4 @@ docker cp temp:all_text.tar.xz .
 docker rm temp
 tar xf all_text.tar.xz
 rm all_text.tar.xz
+touch websites
