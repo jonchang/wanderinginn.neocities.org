@@ -14,5 +14,4 @@ make help
 
 make download
 make site
-make deploy
 ```

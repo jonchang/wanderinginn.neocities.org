@@ -37,7 +37,4 @@ _site/index.html: 5-generate-site.rb index.html.erb
 	bundle exec ruby $<
 	touch $@
 
-deploy: 6-deploy.sh site ## Upload the site to GitHub Pages
-	sh $<
-
-.PHONY: _site/index.html download deploy
+.PHONY: _site/index.html download
