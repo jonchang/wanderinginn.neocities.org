@@ -17,6 +17,12 @@ jobs:
     env:
       CARGO_TERM_COLOR: always
     steps:
+    - name: Authenticate with GitHub Container Registry
+      run: |
+        echo -n $GITHUB_TOKEN | docker login -u jonchang --password-stdin ghcr.io
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     - uses: actions/checkout@v2
 
     - uses: ruby/setup-ruby@v1.67.0
@@ -24,11 +30,7 @@ jobs:
         ruby-version: '2.7'
         bundler-cache: true
 
-    - name: Authenticate with GitHub Container Registry
-      run: |
-        echo -n $GITHUB_TOKEN | docker login -u jonchang --password-stdin ghcr.io
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: Swatinem/rust-cache@v1
 
     - run: ./0-extract-site-archive.sh
 
