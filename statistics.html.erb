@@ -11,10 +11,10 @@
       }
     }
     </style>
-    <title>The Wandering Inn - Statistics</title>
+    <title>The Wandering Inn &mdash; Statistics</title>
   </head>
   <body>
-    <h1>The Wandering Inn - Statistics</h1>
+    <h1>The Wandering Inn &mdash; Statistics</h1>
 
     <p>These data were last updated on <%= lastmod %>.</p>
 
@@ -22,7 +22,7 @@
 
     <%= table_of_contents %>
 
-    <table style="width: unset; margin-left: unset">
+    <table style="width: unset; margin-left: unset" id="statistics">
       <tr>
       <th>Chapter</th>
       <th>Word Count</th>
@@ -31,4 +31,15 @@
     </table>
 
   </body>
+  <script>
+    // Format word counts per locale settings.
+    const nf = new Intl.NumberFormat();
+    const tbl = document.getElementById("statistics");
+    for (const row of tbl.getElementsByTagName("tr")) {
+      cells = row.getElementsByTagName("td");
+      if (cells.length > 1) {
+        cells[1].innerText = nf.format(cells[1].innerText);
+      }
+    }
+  </script>
 </html>
