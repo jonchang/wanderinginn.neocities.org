@@ -4,6 +4,7 @@ require 'find'
 require 'net/http'
 require 'uri'
 require 'csv'
+require 'json'
 
 # For everything in websites/wanderinginn.com, generate a map between the slug and last archive time.
 acc = Hash.new(0)
@@ -33,23 +34,43 @@ end
 
 # Execute a POST request against the wayback API. Reverse engineered from
 # https://github.com/internetarchive/wayback-machine-webextension/
-# FIXME: This API requires authentication. Encode as a secret?
 puts "#{to_update.size} URLs to ping..."
 
-uri = URI.parse('https://web.archive.org/save/')
+# Authentication consists of three cookies, which we accept from the environment
+# as a single string. This signature expires after 1 year.
+# test-cookie=1
+# logged-in-user=EMAIL
+# logged-in-sig=SIGNATURE
+api_url = URI.parse('https://web.archive.org/save/')
+
+http = Net::HTTP.new(api_url.host, api_url.port)
+http.use_ssl = true
 
 to_update.each do |url|
-  puts url
-  # http = Net::HTTP.new(uri.host, uri.port)
-  # http.use_ssl = true
+  url = url.sub(%r{https?://}, '').gsub(%r{/$}, '')
 
-  # request = Net::HTTP::Post.new(uri.request_uri)
-  # request.set_form_data({"url" => URI.encode_www_form_component(url)})
-  # request['accept'] = 'application/json'
+  request = Net::HTTP::Post.new(api_url.request_uri)
+  request.set_form_data({ 'url' => url })
+  request['accept'] = 'application/json'
+  request['cookie'] = ENV['INTERNET_ARCHIVE_COOKIE']
 
-  # response = http.request(request)
+  # IA has very aggressive rate limiting.
+  response = http.request(request)
+  if response.body =~ /429 Too Many Requests/
+    sleep 30
+    redo
+  end
 
-  # puts response.to_hash.inspect
-  # puts response.body
-  # sleep 3
+  json = JSON.parse(response.body)
+  if json['message']
+    puts "#{url} => #{json['message']}"
+    if json['message'] =~ /You have already reached the limit of active sessions/
+      sleep 30
+      redo
+    end
+  else
+    puts "#{url} => #{json['job_id']}"
+  end
+
+  sleep 2
 end
