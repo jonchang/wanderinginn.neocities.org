@@ -45,8 +45,13 @@ api_url = URI.parse('https://web.archive.org/save/')
 http = Net::HTTP.new(api_url.host, api_url.port)
 http.use_ssl = true
 
+# TODO: Centralize this somewhere
+always_skip = 'wanderinginn.com/2021/03/07/8-11-e'
+
 to_update.each do |url|
   url = url.sub(%r{https?://}, '').gsub(%r{/$}, '')
+
+  next if url == always_skip
 
   request = Net::HTTP::Post.new(api_url.request_uri)
   request.set_form_data({ 'url' => url })
