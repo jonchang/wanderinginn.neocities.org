@@ -1,0 +1,34 @@
+name: Ping Internet Archive
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Days to search (unused)"
+        required: false
+        default: 10
+  schedule:
+    # Daily at 6 am
+    - cron: "0 6 * * *"
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Authenticate with GitHub Container Registry
+        run: |
+          echo -n $GITHUB_TOKEN | docker login -u jonchang --password-stdin ghcr.io
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: make extract
+
+      - run: make metadata
+
+      - run: make download
+
+      - run: bundle exec ruby ping-wayback.rb
+        env:
+          INTERNET_ARCHIVE_COOKIE: ${{ secrets.INTERNET_ARCHIVE_COOKIE }}

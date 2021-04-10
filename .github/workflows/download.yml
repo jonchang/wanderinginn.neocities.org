@@ -8,8 +8,8 @@ on:
         required: false
         default: 10
   schedule:
-    # At 23:59 on Tuesday and Saturday
-    - cron: "59 23 * * 2,6"
+    # Daily at 7 am
+    - cron: "0 7 * * *"
 
 jobs:
   download:

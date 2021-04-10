@@ -10,6 +10,9 @@ on:
       unused:
         description: "Unused"
         required: false
+  schedule:
+    # Daily at 8 am
+    - cron: "0 8 * * *"
 
 jobs:
   build:
