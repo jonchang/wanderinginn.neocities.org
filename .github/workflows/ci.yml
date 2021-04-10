@@ -35,8 +35,7 @@ jobs:
 
     - name: RuboCop
       run: |
-        gem install rubocop
-        rubocop *.rb
+        bundle exec rubocop *.rb
 
     - uses: Swatinem/rust-cache@v1
 

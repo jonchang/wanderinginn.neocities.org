@@ -23,9 +23,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: make extract
+      - uses: ruby/setup-ruby@v1.68.0
+        with:
+          ruby-version: '2.7'
+          bundler-cache: true
 
       - run: make metadata
+
+      - run: make extract
 
       - run: make download
 
