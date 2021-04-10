@@ -29,6 +29,6 @@ jobs:
 
       - run: make download
 
-      - run: bundle exec ruby ping-wayback.rb
+      - run: ruby ping-wayback.rb
         env:
           INTERNET_ARCHIVE_COOKIE: ${{ secrets.INTERNET_ARCHIVE_COOKIE }}
