@@ -1,13 +1,14 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
-require "open-uri"
-require "time"
-require "csv"
+require 'open-uri'
+require 'time'
+require 'csv'
 
-require "nokogiri"
+require 'nokogiri'
 
 def date_from_url(url)
-  url = url.gsub "https://wanderinginn.com/", ""
+  url = url.gsub 'https://wanderinginn.com/', ''
   begin
     DateTime.parse url[%r{\d+/\d+/\d+}]
   rescue TypeError
@@ -16,39 +17,40 @@ def date_from_url(url)
 end
 
 def slug_from_url(url)
-  url[%r{[\w-]+/$}].chomp("/")
+  url[%r{[\w-]+/$}].chomp('/')
 end
 
 def guess_title(url)
   puts "Guessing title for #{url}"
-  doc = URI.open(url) { |f| Nokogiri::HTML(f) }
+  doc = URI.parse(url).open { |f| Nokogiri::HTML(f) }
   doc.remove_namespaces!
-  title = doc.css("title").first
-  title.text.gsub("| The Wandering Inn", "").strip
+  title = doc.css('title').first
+  title.text.gsub('| The Wandering Inn', '').strip
 end
 
-doc = URI.open("https://wanderinginn.com/table-of-contents/") { |f| Nokogiri::HTML(f) }
+doc = URI.open('https://wanderinginn.com/table-of-contents/') { |f| Nokogiri::HTML(f) }
 doc.remove_namespaces!
-entry = doc.css(".entry-content").first
-title_map = entry.css("a").map do |url|
-  [url["href"].gsub(%r{/+$}, ""), url.text.strip]
+entry = doc.css('.entry-content').first
+title_map = entry.css('a').map do |url|
+  [url['href'].gsub(%r{/+$}, ''), url.text.strip]
 end.to_h
 
-doc = URI.open("https://wanderinginn.com/sitemap.xml") { |f| Nokogiri::XML(f) }
+doc = URI.open('https://wanderinginn.com/sitemap.xml') { |f| Nokogiri::XML(f) }
 doc.remove_namespaces!
 
-url_mapping = doc.xpath(".//url").map do |url|
-  [url.xpath("./loc").text, DateTime.parse(url.xpath("./lastmod").text)]
+url_mapping = doc.xpath('.//url').map do |url|
+  [url.xpath('./loc').text, DateTime.parse(url.xpath('./lastmod').text)]
 end
 
-CSV.open("data.csv", "wb") do |csv|
+CSV.open('data.csv', 'wb') do |csv|
   csv << %w[url title slug mod_datetime post_date diff]
 
   url_mapping.each do |url, last_modified|
     post_date = date_from_url url
     next unless post_date
+
     diff = last_modified - post_date
-    title = title_map[url.gsub(%r{/+$}, "")] || guess_title(url)
+    title = title_map[url.gsub(%r{/+$}, '')] || guess_title(url)
     slug = slug_from_url(url)
     csv << [url, title, slug, last_modified, post_date, diff.to_i]
   end

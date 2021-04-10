@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 require 'fileutils'
 require 'parallel'
@@ -7,14 +8,14 @@ require 'diffy'
 require 'csv'
 require 'ostruct'
 
-def slug_from_fn(fn)
-  fn =~ %r{([\w-]+)/(\d{14})}
+def slug_from_fn(filename)
+  filename =~ %r{([\w-]+)/(\d{14})}
   slug = Regexp.last_match(1)
   datestamp = Regexp.last_match(2)
-  return slug, datestamp
+  [slug, datestamp]
 end
 
-data = CSV.read("data.csv", headers: true, header_converters: :symbol)
+data = CSV.read('data.csv', headers: true, header_converters: :symbol)
 
 df = {}
 
@@ -28,15 +29,15 @@ end
 
 # https://news.ycombinator.com/item?id=13997533
 def breakerbreaker(text)
-  text.gsub! "\u00A0", " "
-  text.gsub! %r{([.,?!:;)'"–…]) }, "\\1 \n"
-  text.gsub "…", "…\n"
+  text.gsub! "\u00A0", ' '
+  text.gsub!(/([.,?!:;)'"–…]) /, "\\1 \n")
+  text.gsub '…', "…\n"
 end
 
-FileUtils.mkdir_p "_site/diffs"
-FileUtils.mkdir_p "_site/texts"
+FileUtils.mkdir_p '_site/diffs'
+FileUtils.mkdir_p '_site/texts'
 
-open("_site/diffs/diff.css", "w") do |f|
+open('_site/diffs/diff.css', 'w') do |f|
   f.puts <<~EOCSS
     .diff{overflow:auto;}
     .diff ul{background:#fff;overflow:auto;font-size:13px;list-style:none;margin:0;padding:0;display:table;width:100%;}
@@ -55,22 +56,22 @@ end
 
 texts = Dir['texts/*/'].sort
 
-erb_text = File.read("diff.html.erb")
+erb_text = File.read('diff.html.erb')
 
 Parallel.each(texts, in_processes: 4, progress: 'Diffing') do |dir|
   texts = Dir["#{dir}*"].sort
   aa = texts.first
   bb = texts.last
-  slug, date_a = slug_from_fn aa
+  _, date_a = slug_from_fn aa
   slug, date_b = slug_from_fn bb
-  File.open("_site/texts/#{slug}.txt", "w") do |f|
-    f.write(open(bb).read)
+  File.open("_site/texts/#{slug}.txt", 'w') do |f|
+    f.write(File.open(bb).read)
   end
   next if texts.length < 2
 
-  broke_a = breakerbreaker open(aa).read
-  broke_b = breakerbreaker open(bb).read
-  diff_html = Diffy::Diff.new(broke_a, broke_b, :context => 2).to_s(:html)
+  broke_a = breakerbreaker File.open(aa).read
+  broke_b = breakerbreaker File.open(bb).read
+  diff_html = Diffy::Diff.new(broke_a, broke_b, context: 2).to_s(:html)
   next if diff_html =~ %r{<div class="diff"></div>}
 
   variables = OpenStruct.new
@@ -78,9 +79,9 @@ Parallel.each(texts, in_processes: 4, progress: 'Diffing') do |dir|
   variables[:title] = df[slug][:wordpress_title]
   variables[:wp_url] = df[slug][:wordpress_url]
   variables[:back_link] = "/#chapter-#{slug}"
-  res = ERB.new(erb_text, trim_mode: ">").result(variables.instance_eval { binding })
+  res = ERB.new(erb_text, trim_mode: '>').result(variables.instance_eval { binding })
 
-  File.open("_site/diffs/#{slug}.html", "w") do |f|
+  File.open("_site/diffs/#{slug}.html", 'w') do |f|
     f.write(res)
   end
 end

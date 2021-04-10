@@ -30,6 +30,11 @@ jobs:
         ruby-version: '2.7'
         bundler-cache: true
 
+    - name: RuboCop
+      run: |
+        gem install rubocop
+        rubocop *.rb
+
     - uses: Swatinem/rust-cache@v1
 
     - run: make metadata

@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 require 'csv'
 require 'erb'
@@ -7,10 +8,10 @@ require 'ostruct'
 
 require 'words_counted'
 
-ERB_FILES = %w[index.html.erb statistics.html.erb]
+ERB_FILES = %w[index.html.erb statistics.html.erb].freeze
 
 def generate_chapter_link(row)
-    %Q|<a href="#{row[:url]}">#{row[:title]}</a>|
+  %(<a href="#{row[:url]}">#{row[:title]}</a>)
 end
 
 def diffstat(file, max_value: 100)
@@ -20,14 +21,14 @@ def diffstat(file, max_value: 100)
   plus = contents.gsub(ins).count
   minus = contents.gsub(del).count
   total = plus + minus
-  display_width = [(([max_value, total].min).to_f / max_value * 100).floor, 1].max
+  display_width = [([max_value, total].min.to_f / max_value * 100).floor, 1].max
 
   <<~EOSVG
-  <svg width="#{display_width + 35}" height="18" role="img">
-  <g><rect width="#{display_width}" height="18"></rect>
-     <text x="#{display_width + 4}" y="15">#{total}</text>
-  </g>
-  </svg>
+    <svg width="#{display_width + 35}" height="18" role="img">
+    <g><rect width="#{display_width}" height="18"></rect>
+       <text x="#{display_width + 4}" y="15">#{total}</text>
+    </g>
+    </svg>
   EOSVG
 end
 
@@ -35,19 +36,19 @@ def generate_diff_link(row)
   pn_web = "diffs/#{row[:slug]}.html"
   pn = Pathname.new "_site/#{pn_web}"
   if pn.exist?
-    %Q|<a href="#{pn_web.to_s}">#{diffstat(pn)}</a>|
+    %(<a href="#{pn_web}">#{diffstat(pn)}</a>)
   else
-    "0"
+    '0'
   end
 end
 
-def generate_html_table(dd)
-  dd.map do |row|
+def generate_html_table(data)
+  data.map do |row|
     <<~EOHTML
-    <tr id="chapter-#{row[:slug]}">
-    <td>#{generate_chapter_link row}</td>
-    <td>#{generate_diff_link row}</td>
-    </tr>
+      <tr id="chapter-#{row[:slug]}">
+      <td>#{generate_chapter_link row}</td>
+      <td>#{generate_diff_link row}</td>
+      </tr>
     EOHTML
   end.join
 end
@@ -57,18 +58,18 @@ def count_words(slug)
   return unless File.exist? file
 
   tokens = File.open(file) do |f|
-    WordsCounted::Tokeniser.new(f.read).tokenise()
+    WordsCounted::Tokeniser.new(f.read).tokenise
   end
   WordsCounted::Counter.new(tokens).token_count
 end
 
-def generate_statistics_table(dd)
+def generate_statistics_table(data)
   total = 0
-  res = dd.map do |row|
+  res = data.map do |row|
     wc = count_words(row[:slug])
     total += wc || 0
     <<~EOHTML
-    <tr><td>#{generate_chapter_link row}</td><td>#{wc}</td></tr>
+      <tr><td>#{generate_chapter_link row}</td><td>#{wc}</td></tr>
     EOHTML
   end
   res << "<tr><td>Total</td><td>#{total}</td></tr>"
@@ -76,7 +77,7 @@ def generate_statistics_table(dd)
 end
 
 def table_of_contents
-  <<~EOS
+  <<~EOHTML
     <p>
     <ul>
       <li><a href="#chapter-1-00">Volume 1</a></li>
@@ -89,23 +90,24 @@ def table_of_contents
       <li><a href="#chapter-8-00">Volume 8</a></li>
     </ul>
     </p>
-  EOS
+  EOHTML
 end
 
-data = CSV.read("data.csv", headers: true, header_converters: :symbol)
+data = CSV.read('data.csv', headers: true, header_converters: :symbol)
 data = data.sort { |a, b| a[0] <=> b[0] }
 
 variables = OpenStruct.new
-variables[:lastmod] = DateTime.now.strftime("%B %-d, %Y")
+variables[:lastmod] = DateTime.now.strftime('%B %-d, %Y')
 variables[:html_table] = generate_html_table(data)
 variables[:statistics_table] = generate_statistics_table(data)
 
 ERB_FILES.each do |erb|
-  html_file = "_site/" + File.basename(erb, ".erb") #=>"index.html"
+  basename = File.basename(erb, '.erb')
+  html_file = "_site/#{basename}"  #=>"index.html"
   erb_str = File.read(erb)
-  res = ERB.new(erb_str, trim_mode: ">").result(variables.instance_eval { binding })
+  res = ERB.new(erb_str, trim_mode: '>').result(variables.instance_eval { binding })
   File.open(html_file, 'w') { |f| f.write(res) }
 end
 
-FileUtils.cp "header.png", "_site/wise_papa_sloth_corrupted_by_his_own_power_can_no_leader_go_untainted.png"
-FileUtils.cp "homebrew.html", "_site/homebrew.html"
+FileUtils.cp 'header.png', '_site/wise_papa_sloth_corrupted_by_his_own_power_can_no_leader_go_untainted.png'
+FileUtils.cp 'homebrew.html', '_site/homebrew.html'

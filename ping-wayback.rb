@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 require 'find'
 require 'net/http'
@@ -27,9 +28,7 @@ data.each do |row|
   # Delete everything after `+` and remove all nonnumeric characters
   datetime = row[:mod_datetime].gsub('+00:00', '').gsub(/\D/, '').to_i
   slug = row[:slug]
-  if acc[slug] < datetime
-    to_update << row[:url]
-  end
+  to_update << row[:url] if acc[slug] < datetime
 end
 
 # Execute a POST request against the wayback API. Reverse engineered from
