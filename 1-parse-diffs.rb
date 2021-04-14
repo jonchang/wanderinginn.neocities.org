@@ -42,6 +42,10 @@ url_mapping = doc.xpath('.//url').map do |url|
   [url.xpath('./loc').text, DateTime.parse(url.xpath('./lastmod').text)]
 end
 
+# sort by last modified
+url_mapping.sort_by! { |obj| obj[1] }
+url_mapping.reverse!
+
 CSV.open('data.csv', 'wb') do |csv|
   csv << %w[url title slug mod_datetime post_date diff]
 
