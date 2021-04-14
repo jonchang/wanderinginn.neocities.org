@@ -6,16 +6,18 @@ require 'net/http'
 require 'uri'
 require 'csv'
 require 'json'
+require 'date'
 
 # For everything in websites/wanderinginn.com, generate a map between the slug and last archive time.
-acc = Hash.new(0)
-Find.find('websites/wanderinginn.com') do |fn|
+acc = Hash.new(DateTime.new)
+Find.find('websites/') do |fn|
   next unless File.file? fn
 
-  fn =~ %r{(\d{14})/\d{4}/\d{2}/\d{2}/([\w-]+)}
+  fn =~ %r{/(\d{14})/}
+  time = DateTime.strptime(Regexp.last_match(1), '%Y%m%d%H%M%S')
 
-  time = Regexp.last_match(1).to_i
-  slug = Regexp.last_match(2)
+  fn =~ %r{/([\w-]+)/index.html}
+  slug = Regexp.last_match(1)
 
   acc[slug] = time if acc[slug] < time
 end
@@ -24,11 +26,10 @@ end
 to_update = []
 data = CSV.read('data.csv', headers: true, header_converters: :symbol)
 data.each do |row|
-  # Wordpress format looks like 2021-04-02T17:11:22+00:00
-  # Delete everything after `+` and remove all nonnumeric characters
-  datetime = row[:mod_datetime].gsub('+00:00', '').gsub(/\D/, '').to_i
+  datetime = DateTime.strptime(row[:mod_datetime])
   slug = row[:slug]
-  to_update << row[:url] if acc[slug] < datetime
+  url = row[:url].sub(%r{https?://}, '').gsub(%r{/$}, '')
+  to_update << url if acc[slug] < datetime
 end
 
 # Execute a POST request against the wayback API. Reverse engineered from
@@ -49,9 +50,10 @@ http.use_ssl = true
 always_skip = 'wanderinginn.com/2021/03/07/8-11-e'
 
 to_update.each do |url|
-  url = url.sub(%r{https?://}, '').gsub(%r{/$}, '')
-
-  next if url == always_skip
+  if url == always_skip || !ENV['INTERNET_ARCHIVE_COOKIE']
+    puts "#{url} => skipped"
+    next
+  end
 
   request = Net::HTTP::Post.new(api_url.request_uri)
   request.set_form_data({ 'url' => url })
