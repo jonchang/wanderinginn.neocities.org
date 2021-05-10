@@ -13,7 +13,7 @@ GEM
   specs:
     ast (2.4.2)
     diffy (3.4.0)
-    mini_portile2 (2.5.0)
+    mini_portile2 (2.5.1)
     nokogiri (1.11.3)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
@@ -23,6 +23,9 @@ GEM
     racc (1.5.2)
     rainbow (3.0.0)
     regexp_parser (2.1.1)
+    resolv (0.2.0)
+    resolv-replace (0.1.0)
+      resolv
     rexml (3.2.5)
     rubocop (1.14.0)
       parallel (~> 1.10)
@@ -46,6 +49,7 @@ DEPENDENCIES
   diffy!
   nokogiri!
   parallel!
+  resolv-replace!
   rubocop!
   ruby-progressbar!
   wayback_machine_downloader!

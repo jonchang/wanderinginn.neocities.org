@@ -7,6 +7,7 @@ require 'uri'
 require 'csv'
 require 'json'
 require 'date'
+require 'resolv-replace'
 
 # For everything in websites/wanderinginn.com, generate a map between the slug and last archive time.
 acc = Hash.new(DateTime.new)
