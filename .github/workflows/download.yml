@@ -17,6 +17,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2.3.4
 
+      - uses: ruby/setup-ruby@v1.70.1
+        with:
+          ruby-version: '2.7'
+          bundler-cache: true
+
       - name: Authenticate with GitHub Container Registry
         run: |
           echo -n $GITHUB_TOKEN | docker login -u jonchang --password-stdin ghcr.io
