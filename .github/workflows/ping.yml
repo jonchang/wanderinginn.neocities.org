@@ -1,15 +1,10 @@
 name: Ping Internet Archive
 
 on:
-  workflow_dispatch:
-    inputs:
-      days:
-        description: "Days to search (unused)"
-        required: false
-        default: 10
   schedule:
     # Daily at 6 am
     - cron: "0 6 * * *"
+  workflow_dispatch:
 
 jobs:
   download:

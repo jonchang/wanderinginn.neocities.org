@@ -1,15 +1,10 @@
 name: Download and update site archive
 
 on:
-  workflow_dispatch:
-    inputs:
-      days:
-        description: "Days to search (unused)"
-        required: false
-        default: 10
   schedule:
     # Daily at 7 am
     - cron: "0 7 * * *"
+  workflow_dispatch:
 
 jobs:
   download:
