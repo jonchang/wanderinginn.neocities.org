@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/hartator/wayback-machine-downloader
-  revision: e6707a9d8bcd42cf921da4aaf5afe77a13fca7cb
+  revision: 66ff4d91113d6d73e513138fa056285b7481694d
   branch: master
   specs:
-    wayback_machine_downloader (2.2.1)
+    wayback_machine_downloader (2.3.0)
 
 GEM
   specs:
