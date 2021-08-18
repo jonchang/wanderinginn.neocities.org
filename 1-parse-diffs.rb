@@ -56,6 +56,9 @@ CSV.open('data.csv', 'wb') do |csv|
     diff = last_modified - post_date
     title = title_map[url.gsub(%r{/+$}, '')] || guess_title(url)
     slug = slug_from_url(url)
+
+    next if slug == '8-11-e'
+
     csv << [url, title, slug, last_modified, post_date, diff.to_i]
   end
 end
