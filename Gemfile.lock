@@ -33,7 +33,7 @@ GEM
       parser (>= 3.0.1.1)
     ruby-progressbar (1.11.0)
     unicode-display_width (2.0.0)
-    wayback_machine_downloader (2.3.0)
+    wayback_machine_downloader (2.3.1)
     words_counted (1.0.2)
 
 PLATFORMS
