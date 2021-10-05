@@ -9,6 +9,7 @@ require 'ostruct'
 require 'words_counted'
 
 ERB_FILES = %w[index.html.erb statistics.html.erb].freeze
+TOKEN_REGEXP = /[\p{Alpha}\-'’]+/.freeze
 
 def generate_chapter_link(row)
   %(<a href="#{row[:url]}">#{row[:title]}</a>)
@@ -58,7 +59,7 @@ def count_words(slug)
   return unless File.exist? file
 
   tokens = File.open(file) do |f|
-    WordsCounted::Tokeniser.new(f.read).tokenise
+    WordsCounted::Tokeniser.new(f.read).tokenise(pattern: TOKEN_REGEXP)
   end
   WordsCounted::Counter.new(tokens).token_count
 end
