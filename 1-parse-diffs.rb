@@ -10,7 +10,7 @@ require 'nokogiri'
 def date_from_url(url)
   url = url.gsub 'https://wanderinginn.com/', ''
   begin
-    DateTime.parse url[%r{\d+/\d+/\d+}]
+    Date.parse url[%r{\d+/\d+/\d+}]
   rescue TypeError
     nil
   end
