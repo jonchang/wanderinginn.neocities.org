@@ -69,7 +69,7 @@ def generate_statistics_table(data)
     wc = count_words(row[:slug])
     total += wc || 0
     <<~EOHTML
-      <tr><td>#{generate_chapter_link row}</td><td>#{wc}</td></tr>
+      <tr id="chapter-#{row[:slug]}"><td>#{generate_chapter_link row}</td><td>#{wc}</td></tr>
     EOHTML
   end
   res << "<tr><td>Total</td><td>#{total}</td></tr>"
