@@ -76,6 +76,29 @@ def generate_statistics_table(data)
   res.join
 end
 
+# rubocop:disable Metrics/AbcSize
+def generate_statistics_summary_table(data)
+  total_map = Hash.new { |h, k| h[k] = 0 }
+  volume_slug = {}
+  data.each do |row|
+    total_map[row[:volume]] += count_words(row[:slug]) || 0
+    volume_slug[row[:volume]] = row[:slug] unless volume_slug.include? row[:volume]
+  end
+
+  res = total_map.keys.map do |key|
+    "<tr><td><a href=\"\#chapter-#{volume_slug[key]}\">Volume #{key}</a></td><td>#{total_map[key]}</td></tr>"
+  end.join
+
+  <<~EOHTML
+    <table id="statistics-summary" style="width: unset; margin-left: unset">
+      <tr><th>Volume</th><th>Word Count</th>
+      #{res}
+      <tr><td>Total</td><td>#{total_map.values.sum}</td></tr>
+    </table>
+  EOHTML
+end
+# rubocop:enable Metrics/AbcSize
+
 def table_of_contents
   <<~EOHTML
     <p>
@@ -100,6 +123,7 @@ variables = OpenStruct.new
 variables[:lastmod] = DateTime.now.strftime('%B %-d, %Y')
 variables[:html_table] = generate_html_table(data)
 variables[:statistics_table] = generate_statistics_table(data)
+variables[:statistics_summary_table] = generate_statistics_summary_table(data)
 
 ERB_FILES.each do |erb|
   basename = File.basename(erb, '.erb')
