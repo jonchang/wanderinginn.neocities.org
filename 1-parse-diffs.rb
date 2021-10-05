@@ -7,6 +7,16 @@ require 'csv'
 
 require 'nokogiri'
 
+VOLUME_DATES = [
+  Date.new(2017, 3, 5),    # Vol 1
+  Date.new(2017, 7, 30),   # Vol 2
+  Date.new(2017, 12, 31),  # Vol 3
+  Date.new(2018, 7, 9),    # Vol 4
+  Date.new(2019, 3, 3),    # Vol 5
+  Date.new(2020, 1, 2),    # Vol 6
+  Date.new(2020, 12, 24)   # Vol 7
+].freeze
+
 def date_from_url(url)
   url = url.gsub 'https://wanderinginn.com/', ''
   begin
@@ -47,7 +57,7 @@ url_mapping.sort_by! { |obj| obj[1] }
 url_mapping.reverse!
 
 CSV.open('data.csv', 'wb') do |csv|
-  csv << %w[url title slug mod_datetime post_date diff]
+  csv << %w[url title slug mod_datetime post_date diff volume]
 
   url_mapping.each do |url, last_modified|
     post_date = date_from_url url
@@ -59,6 +69,8 @@ CSV.open('data.csv', 'wb') do |csv|
 
     next if slug == '8-11-e'
 
-    csv << [url, title, slug, last_modified, post_date, diff.to_i]
+    volume = VOLUME_DATES.find_index { |ii| post_date < ii } || VOLUME_DATES.size
+
+    csv << [url, title, slug, last_modified, post_date, diff.to_i, volume + 1]
   end
 end
