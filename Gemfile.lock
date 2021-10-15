@@ -34,7 +34,7 @@ GEM
     ruby-progressbar (1.11.0)
     unicode-display_width (2.1.0)
     wayback_machine_downloader (2.3.1)
-    words_counted (1.0.2)
+    words_counted (1.0.3)
 
 PLATFORMS
   ruby
