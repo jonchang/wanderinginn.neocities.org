@@ -18,7 +18,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: ruby/setup-ruby@v1.82.0
+      - uses: ruby/setup-ruby@v1.83.0
         with:
           ruby-version: '2.7'
           bundler-cache: true
