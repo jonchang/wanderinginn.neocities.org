@@ -17,6 +17,11 @@ VOLUME_DATES = [
   Date.new(2020, 12, 24)   # Vol 7
 ].freeze
 
+SLUGS_TO_SKIP = %w[
+  8-11-e
+  8-49-m-unedited
+].freeze
+
 def date_from_url(url)
   url = url.gsub 'https://wanderinginn.com/', ''
   begin
@@ -67,7 +72,7 @@ CSV.open('data.csv', 'wb') do |csv|
     title = title_map[url.gsub(%r{/+$}, '')] || guess_title(url)
     slug = slug_from_url(url)
 
-    next if slug == '8-11-e'
+    next if SLUGS_TO_SKIP.include? slug
 
     volume = VOLUME_DATES.find_index { |ii| post_date < ii } || VOLUME_DATES.size
 
