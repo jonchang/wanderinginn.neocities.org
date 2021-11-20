@@ -1,0 +1,37 @@
+/* overlay for element.css */
+svg {
+    display: block;
+    fill: #0366d6;
+}
+@media (max-width: 420px) {
+    body {
+        padding: 20px !important;
+    }
+}
+:target {
+    background-color: #ff6 !important;
+}
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+    .element {
+        background-color: #33363d;
+        color: #dddedf;
+    }
+    .element a {
+        color: #02aaec
+    }
+    .element table tr {
+        background-color: #33363d;
+        border-top: 1px solid #dddedf;
+    }
+
+    .element table tr:nth-child(2n) {
+        background-color: #2a2d34;
+    }
+    svg {
+        display: block;
+        fill: #02aaec;
+    }
+}
+

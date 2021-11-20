@@ -134,5 +134,7 @@ ERB_FILES.each do |erb|
   File.open(html_file, 'w') { |f| f.write(res) }
 end
 
-FileUtils.cp 'header.png', '_site/wise_papa_sloth_corrupted_by_his_own_power_can_no_leader_go_untainted.png'
+FileUtils.cp 'header-light.png', '_site/wise_papa_sloth_corrupted_by_his_own_power_can_no_leader_go_untainted.png'
+FileUtils.cp 'header-dark.png', '_site/wise_papa_sloth_corrupted_by_his_own_power_can_no_leader_go_untainted_dark.png'
+FileUtils.cp 'base.css', '_site/base.css'
 FileUtils.cp 'homebrew.html', '_site/homebrew.html'
