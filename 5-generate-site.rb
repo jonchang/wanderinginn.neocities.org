@@ -112,6 +112,7 @@ def table_of_contents
       <li><a href="#chapter-6-00">Volume 6</a></li>
       <li><a href="#chapter-7-00">Volume 7</a></li>
       <li><a href="#chapter-8-00">Volume 8</a></li>
+      <li><a href="#chapter-9-00">Volume 9</a></li>
     </ul>
     </p>
   EOHTML
