@@ -14,7 +14,8 @@ VOLUME_DATES = [
   Date.new(2018, 7, 9),    # Vol 4
   Date.new(2019, 3, 3),    # Vol 5
   Date.new(2020, 1, 2),    # Vol 6
-  Date.new(2020, 12, 24)   # Vol 7
+  Date.new(2020, 12, 24),  # Vol 7
+  Date.new(2022, 6, 1)     # Vol 8
 ].freeze
 
 SLUGS_TO_SKIP = %w[
