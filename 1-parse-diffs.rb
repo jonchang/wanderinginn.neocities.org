@@ -21,6 +21,8 @@ VOLUME_DATES = [
 SLUGS_TO_SKIP = %w[
   8-11-e
   8-49-m-unedited
+  gravesong
+  the-wandering-inn-ama
 ].freeze
 
 def date_from_url(url)
