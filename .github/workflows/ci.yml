@@ -33,7 +33,7 @@ jobs:
       run: |
         bundle exec rubocop *.rb
 
-    - uses: Swatinem/rust-cache@v1
+    - uses: Swatinem/rust-cache@v2
 
     - run: make metadata
 
