@@ -118,6 +118,30 @@ def table_of_contents
   EOHTML
 end
 
+def supporter_info
+  <<~EOHTML
+    <p>
+      The code that generates this site is <a href="https://github.com/jonchang/wanderinginn.neocities.org">available on GitHub</a>. This site is made possible by the free labor and services provided by a bunch of people. Please consider supporting <a href="https://neocities.org/donate">Neocities</a>, the <a href="https://archive.org/donate/">Internet Archive</a>, or <a href="https://github.com/sponsors/jonchang">me with a donation</a>.
+    </p>
+  EOHTML
+end
+
+def frequently_asked_questions
+  <<~EOHTML
+    <h2>FAQ</h2>
+    <dl>
+      <dt>Where are the data for (chapter title)?</dt>
+      <dd>Certain chapters aren't tracked. The most obvious ones are chapters that are still behind a Patreon password. Other chapters were written as Wordpress "pages" and thus aren't automatically tracked, such as the real April Fool's chapter, or the hidden rat interludes. These could be tracked, but I haven't gotten around to it yet.</dd>
+
+      <dt>Why don't you exclude the author's notes and fanart galleries from your chapter text?</dt>
+      <dd>I don't trust in my ability to instruct the computer to detect and remove these, and I'm not going to do it by hand, so this is the best compromise.</dd>
+
+      <dt>Why do your word counts differ from (other word count tracking site)?</dt>
+      <dd>See the answer to the previous question. Also, <a href="https://en.wikipedia.org/wiki/Word_count">there is no consistent definition of word count</a>, so pick whichever source satisfies your desire for numbers-go-up, and/or stop assuming that there is such a thing as an authoritative count.</dd>
+    </dl>
+  EOHTML
+end
+
 data = CSV.read('data.csv', headers: true, header_converters: :symbol)
 data = data.sort { |a, b| a[0] <=> b[0] }
 

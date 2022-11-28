@@ -10,10 +10,15 @@
   <body>
     <h1>The Wandering Inn &mdash; Statistics and Word Count</h1>
 
-    <p>These data were last updated on <%= lastmod %>.</p>
-
     <p><a href="index.html">Back to main page</a></p>
 
+    <p>These data were last updated on <%= lastmod %>.</p>
+
+    <%= supporter_info %>
+
+    <%= frequently_asked_questions %>
+
+    <h2>Table of contents</h2>
     <%= statistics_summary_table %>
 
     <table style="width: unset; margin-left: unset" id="statistics">
