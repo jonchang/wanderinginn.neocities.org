@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/jonchang/wayback-machine-downloader.git
+  revision: d5bec7eab57a59ccee7a0577ecea87302e49a83d
+  branch: master
+  specs:
+    wayback_machine_downloader (2.3.1)
+      resolv-replace (~> 0.1)
+
 GEM
   specs:
 
@@ -35,7 +43,6 @@ GEM
       parser (>= 3.1.1.0)
     ruby-progressbar (1.11.0)
     unicode-display_width (2.4.2)
-    wayback_machine_downloader (2.3.1)
     words_counted (1.0.3)
 
 PLATFORMS
