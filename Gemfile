@@ -5,6 +5,6 @@ source 'https://rubygems.org' do
   gem 'resolv-replace'
   gem 'rubocop'
   gem 'ruby-progressbar'
-  gem 'wayback_machine_downloader'
+  gem 'wayback_machine_downloader', github: 'jonchang/wayback-machine-downloader', branch: 'master'
   gem 'words_counted'
 end
