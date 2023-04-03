@@ -281,7 +281,19 @@ dependencies = [
  "html5ever 0.25.2",
  "markup5ever 0.10.0",
  "tendril",
- "xml5ever",
+ "xml5ever 0.16.1",
+]
+
+[[package]]
+name = "markup5ever_rcdom"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b9521dd6750f8e80ee6c53d65e2e4656d7de37064f3a7a5d2d11d05df93839c2"
+dependencies = [
+ "html5ever 0.26.0",
+ "markup5ever 0.11.0",
+ "tendril",
+ "xml5ever 0.17.0",
 ]
 
 [[package]]
@@ -562,7 +574,7 @@ checksum = "e7843b159286299dd2b90f06d904ae1a8017a650d88d716c85dd6f123947f399"
 dependencies = [
  "html5ever 0.25.2",
  "lazy_static",
- "markup5ever_rcdom",
+ "markup5ever_rcdom 0.1.0",
  "regex",
  "url",
 ]
@@ -576,6 +588,7 @@ dependencies = [
  "html5ever 0.26.0",
  "indicatif",
  "lazy_static",
+ "markup5ever_rcdom 0.2.0",
  "rayon",
  "readability",
  "regex",
@@ -827,4 +840,15 @@ dependencies = [
  "mac",
  "markup5ever 0.10.0",
  "time",
+]
+
+[[package]]
+name = "xml5ever"
+version = "0.17.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4034e1d05af98b51ad7214527730626f019682d797ba38b51689212118d8e650"
+dependencies = [
+ "log",
+ "mac",
+ "markup5ever 0.11.0",
 ]
