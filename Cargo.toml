@@ -24,4 +24,5 @@ anyhow = "~1"
 rayon = "~1"
 indicatif = {version = "~0", features = ["rayon"]}
 readability = {version = "~0", default-features = false}
-dissolve = "~0"
+html5ever = "~0"
+tendril = "~0"

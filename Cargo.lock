@@ -118,16 +118,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "dissolve"
-version = "0.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "898542be4716d992082c8e4fc331b792d626cfa71cb2b4790f828b9a8f921a90"
-dependencies = [
- "html5ever 0.21.0",
- "tendril",
-]
-
-[[package]]
 name = "either"
 version = "1.6.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -712,13 +702,14 @@ name = "readable"
 version = "0.1.0"
 dependencies = [
  "anyhow",
- "dissolve",
  "glob",
+ "html5ever 0.21.0",
  "indicatif",
  "lazy_static 1.4.0",
  "rayon",
  "readability",
  "regex",
+ "tendril",
  "url",
 ]
 

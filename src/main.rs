@@ -1,8 +1,9 @@
 #[macro_use]
 extern crate lazy_static;
 use anyhow::Result;
-use dissolve::strip_html_tags;
 use glob::glob;
+use html5ever::rcdom::{RcDom, Node, NodeData};
+use html5ever::{ParseOpts, parse_document};
 use indicatif::ParallelProgressIterator;
 use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
 use readability::extractor;
@@ -10,7 +11,49 @@ use regex::Regex;
 use std::fs::{create_dir_all, File};
 use std::io::Write;
 use std::path::{Path, PathBuf};
+use tendril::TendrilSink;
 use url::Url;
+
+// Code from dissolve rust crate
+// https://github.com/KiChjang/dissolve/blob/master/src/lib.rs
+// MIT license
+/// Consumes a string that contains HTML5 tags and outputs a Vec<String>
+/// containing the text content inside the tags in a pre-order manner.
+///
+/// Basic usage:
+///
+/// ```rust
+/// let input = "<html>Hello World!</html>";
+/// let output = strip_html_tags(input);
+/// assert_eq!(output, vec!["Hello World!".to_owned()]);
+/// ```
+pub fn strip_html_tags(input: &str) -> Vec<String> {
+    let dom = parse_document(RcDom::default(), ParseOpts::default())
+        .from_utf8()
+        .one(input.as_bytes());
+    let doc = dom.document;
+    get_text(&doc)
+}
+
+/// Helper function to return text in text nodes in pre-order traversal.
+fn get_text(element: &Node) -> Vec<String> {
+    match element.data {
+        NodeData::Text { ref contents } => {
+            let mut text = vec!((&**contents.borrow()).to_owned());
+            for child in &*element.children.borrow() {
+                text.append(&mut get_text(child));
+            }
+            text
+        }
+        _ => {
+            let mut text = vec!();
+            for child in &*element.children.borrow() {
+                text.append(&mut get_text(child));
+            }
+            text
+        }
+    }
+}
 
 fn fix_text(text: String) -> String {
     lazy_static! {
