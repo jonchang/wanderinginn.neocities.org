@@ -1,7 +1,7 @@
 #[macro_use]
 extern crate lazy_static;
+use anyhow::Result;
 use dissolve::strip_html_tags;
-use exitfailure::ExitFailure;
 use glob::glob;
 use indicatif::ParallelProgressIterator;
 use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
@@ -68,7 +68,7 @@ fn write_to_path(text: &str, slug: &str, datestamp: &str) {
     outfile.write_all(text.as_bytes()).expect("Write failed");
 }
 
-fn main() -> Result<(), ExitFailure> {
+fn main() -> Result<()> {
     let files: Vec<_> = glob("websites/**/index.html")?
         .filter_map(|x| x.ok())
         .collect();
