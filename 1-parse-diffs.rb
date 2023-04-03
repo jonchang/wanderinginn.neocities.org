@@ -53,7 +53,7 @@ title_map = entry.css('a').map do |url|
   [url['href'].gsub(%r{/+$}, ''), url.text.strip]
 end.to_h
 
-doc = URI.open('https://wanderinginn.com/sitemap.xml') { |f| Nokogiri::XML(f) }
+doc = URI.open('https://wanderinginn.com/sitemap-1.xml') { |f| Nokogiri::XML(f) }
 doc.remove_namespaces!
 
 url_mapping = doc.xpath('.//url').map do |url|
