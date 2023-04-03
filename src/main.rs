@@ -2,9 +2,9 @@
 extern crate lazy_static;
 use anyhow::Result;
 use glob::glob;
-use html5ever::rcdom::{RcDom, Node, NodeData};
 use html5ever::{ParseOpts, parse_document};
 use indicatif::ParallelProgressIterator;
+use markup5ever_rcdom::{RcDom, Node, NodeData};
 use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
 use readability::extractor;
 use regex::Regex;
