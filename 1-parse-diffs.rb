@@ -81,6 +81,6 @@ CSV.open('data.csv', 'wb') do |csv|
 
     volume = VOLUME_DATES.select { |_, ii| post_date < ii }.keys.first
 
-    csv << [url, title, slug, last_modified, post_date, diff.to_i, volume + 1]
+    csv << [url, title, slug, last_modified, post_date, diff.to_i, volume]
   end
 end
