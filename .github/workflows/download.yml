@@ -42,8 +42,8 @@ jobs:
 
       - run: make compress
 
-      - run: docker build . --file Dockerfile --tag ghcr.io/jonchang/wanderinginn-archive:latest
+      - run: make docker-build
 
       - name: Push the image
         if: ${{ success() && github.ref == 'refs/heads/master' }}
-        run: docker push ghcr.io/jonchang/wanderinginn-archive:latest
+        run: make docker-push
