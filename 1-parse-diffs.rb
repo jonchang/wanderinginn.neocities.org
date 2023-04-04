@@ -7,16 +7,18 @@ require 'csv'
 
 require 'nokogiri'
 
-VOLUME_DATES = [
-  Date.new(2017, 3, 5),    # Vol 1
-  Date.new(2017, 7, 30),   # Vol 2
-  Date.new(2017, 12, 31),  # Vol 3
-  Date.new(2018, 7, 9),    # Vol 4
-  Date.new(2019, 3, 3),    # Vol 5
-  Date.new(2020, 1, 2),    # Vol 6
-  Date.new(2020, 12, 24),  # Vol 7
-  Date.new(2022, 6, 1)     # Vol 8
-].freeze
+VOLUME_DATES = {
+  'Volume 1' => Date.new(2017, 3, 2),
+  'Volume 1 (rewrite)' => Date.new(2017, 3, 6),
+  'Volume 2' => Date.new(2017, 7, 30),
+  'Volume 3' => Date.new(2017, 12, 31),
+  'Volume 4' => Date.new(2018, 7, 9),
+  'Volume 5' => Date.new(2019, 3, 3),
+  'Volume 6' => Date.new(2020, 1, 2),
+  'Volume 7' => Date.new(2020, 12, 24),
+  'Volume 8' => Date.new(2022, 6, 1),
+  'Volume 9' => Date.new(2024, 1, 1)
+}.freeze
 
 SLUGS_TO_SKIP = %w[
   8-11-e
@@ -77,7 +79,7 @@ CSV.open('data.csv', 'wb') do |csv|
 
     next if SLUGS_TO_SKIP.include? slug
 
-    volume = VOLUME_DATES.find_index { |ii| post_date < ii } || VOLUME_DATES.size
+    volume = VOLUME_DATES.select { |_, ii| post_date < ii }.keys.first
 
     csv << [url, title, slug, last_modified, post_date, diff.to_i, volume + 1]
   end

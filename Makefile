@@ -47,4 +47,10 @@ extract: 0-extract-site-archive.sh ## Download and extract the website archive (
 compress: 3-compress-website.sh ## Compress the website archive
 	sh $<
 
+docker-build: ## Build the Docker image
+	docker build . --file Dockerfile --tag ghcr.io/jonchang/wanderinginn-archive:latest
+
+docker-push: ## Upload the Docker image
+	docker push ghcr.io/jonchang/wanderinginn-archive:latest
+
 .PHONY: _site/index.html download compress

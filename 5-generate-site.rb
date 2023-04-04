@@ -87,7 +87,7 @@ def generate_statistics_summary_table(data)
   end
 
   res = total_map.keys.map do |key|
-    "<tr><td><a href=\"\#chapter-#{volume_slug[key]}\">Volume #{key}</a></td><td>#{total_map[key]}</td></tr>"
+    "<tr><td><a href=\"\#chapter-#{volume_slug[key]}\">#{key}</a></td><td>#{total_map[key]}</td></tr>"
   end.join
 
   <<~EOHTML
@@ -105,6 +105,7 @@ def table_of_contents
     <p>
     <ul>
       <li><a href="#chapter-1-00">Volume 1</a></li>
+      <li><a href="#chapter-rw1-00">Volume 1 (rewrite)</a></li>
       <li><a href="#chapter-interlude-2">Volume 2</a></li>
       <li><a href="#chapter-3-00-e">Volume 3</a></li>
       <li><a href="#chapter-4-00-k">Volume 4</a></li>
