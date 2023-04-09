@@ -35,7 +35,7 @@ This repository does not redistribute the full text of the original work as the 
 
 * creates a transformative reference work using the original text,
 * is based on a published text,
-* reproduces less than 2% of the original (`percent-usage.sh`), and
+* reproduces less than 1% of the original (`percent-usage.sh`), and
 * is noncommercial and is unlikely to affect the market for the original text.
 
 There is also an explicit grant of permissions from the author:
