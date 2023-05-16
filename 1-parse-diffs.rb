@@ -45,7 +45,7 @@ def guess_title(url)
   doc = URI.parse(url).open { |f| Nokogiri::HTML(f) }
   doc.remove_namespaces!
   title = doc.css('title').first
-  title.text.gsub('| The Wandering Inn', '').strip
+  title.text.gsub('| The Wandering Inn', '').gsub('– The Wandering Inn', '').strip
 end
 
 doc = URI.open('https://wanderinginn.com/table-of-contents/') { |f| Nokogiri::HTML(f) }
