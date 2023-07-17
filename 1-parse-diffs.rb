@@ -50,7 +50,7 @@ end
 
 doc = URI.open('https://wanderinginn.com/table-of-contents/') { |f| Nokogiri::HTML(f) }
 doc.remove_namespaces!
-entry = doc.css('.entry-content').first
+entry = doc.css('#table-of-contents').first
 title_map = entry.css('a').map do |url|
   [url['href'].gsub(%r{/+$}, ''), url.text.strip]
 end.to_h
