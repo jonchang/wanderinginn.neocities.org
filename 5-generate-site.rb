@@ -17,19 +17,14 @@ end
 
 def diffstat(file, max_value: 100)
   contents = File.read(file)
-  ins = '<ins>'
-  del = '<del>'
-  plus = contents.gsub(ins).count
-  minus = contents.gsub(del).count
-  total = plus + minus
+  total = contents.gsub('<ins>').count + contents.gsub('<del>').count
   display_width = [([max_value, total].min.to_f / max_value * 100).floor, 1].max
 
   <<~EOSVG
-    <svg width="#{display_width + 35}" height="18" role="img">
-    <g><rect width="#{display_width}" height="18"></rect>
-       <text x="#{display_width + 4}" y="15">#{total}</text>
-    </g>
-    </svg>
+    <svg width="#{display_width + 35}" height="18" role="img"><g>
+      <rect width="#{display_width}" height="18"></rect>
+      <text x="#{display_width + 4}" y="15">#{total}</text>
+    </g></svg>
   EOSVG
 end
 
@@ -78,6 +73,7 @@ def generate_statistics_table(data)
 end
 
 # rubocop:disable Metrics/AbcSize
+# rubocop:disable Metrics/MethodLength
 def generate_statistics_summary_table(data)
   total_map = Hash.new { |h, k| h[k] = 0 }
   volume_slug = {}
@@ -98,6 +94,7 @@ def generate_statistics_summary_table(data)
     </table>
   EOHTML
 end
+# rubocop:enable Metrics/MethodLength
 # rubocop:enable Metrics/AbcSize
 
 def table_of_contents
