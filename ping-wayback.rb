@@ -64,20 +64,20 @@ to_update.each do |url|
   # IA has very aggressive rate limiting.
   response = http.request(request)
   if response.body =~ /429 Too Many Requests/
-    sleep 30
+    sleep 60
     redo
   end
 
   json = JSON.parse(response.body)
   if json['message']
     puts "#{url} => #{json['message']}"
-    if json['message'] =~ /You have already reached the limit of active sessions/
-      sleep 30
+    if json['message'] =~ /You have already reached the limit of active Save Page Now sessions/
+      sleep 60
       redo
     end
   else
     puts "#{url} => #{json['job_id']}"
   end
 
-  sleep 2
+  sleep 5
 end
