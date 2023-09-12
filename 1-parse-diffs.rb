@@ -25,13 +25,6 @@ SLUGS_TO_SKIP = %w[
   8-49-m-unedited
   gravesong
   the-wandering-inn-ama
-  huntsong-arc-1
-  arc-1-huntsong-patreon-preview
-  arc-2-ghostsong-patreon-preview
-  writing-update-warsong
-  arc-3-warsong-patreon-preview
-  warsong-update
-  no-chapter-on-the-26th
 ].freeze
 
 def date_from_url(url)
