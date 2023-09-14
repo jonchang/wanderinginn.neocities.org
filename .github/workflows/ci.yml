@@ -5,7 +5,7 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-  schedule:
+  # schedule:
     # Daily at 8 am
     # - cron: "0 8 * * *"
   workflow_dispatch:
