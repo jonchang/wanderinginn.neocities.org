@@ -32,7 +32,8 @@ def generate_diff_link(row)
   pn_web = "diffs/#{row[:slug]}.html"
   pn = Pathname.new "_site/#{pn_web}"
   if pn.exist?
-    %(<a href="#{pn_web}">#{diffstat(pn)}</a>)
+    # %(<a href="#{pn_web}">#{diffstat(pn)}</a>)
+    diffstat(pn)
   else
     '0'
   end
