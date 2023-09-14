@@ -7,7 +7,7 @@ on:
     branches: [ master ]
   schedule:
     # Daily at 8 am
-    - cron: "0 8 * * *"
+    # - cron: "0 8 * * *"
   workflow_dispatch:
 
 jobs:

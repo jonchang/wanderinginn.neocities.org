@@ -3,7 +3,7 @@ name: Ping Internet Archive
 on:
   schedule:
     # Daily at 6 am
-    - cron: "0 6 * * *"
+    # - cron: "0 6 * * *"
   workflow_dispatch:
 
 jobs:
